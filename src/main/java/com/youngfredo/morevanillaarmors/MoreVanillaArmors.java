@@ -1,7 +1,7 @@
 package com.youngfredo.morevanillaarmors;
 
+import com.youngfredo.morevanillaarmors.block.ModBlocks;
 import com.youngfredo.morevanillaarmors.item.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -38,6 +38,7 @@ public class MoreVanillaArmors {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -54,6 +55,11 @@ public class MoreVanillaArmors {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.ENDERITE);
             event.accept(ModItems.ENDERITE_SHARD);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.ENDERITE_BLOCK);
+            event.accept(ModBlocks.ENDERITE_ORE);
         }
     }
 

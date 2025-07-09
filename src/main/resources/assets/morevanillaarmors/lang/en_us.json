@@ -1,4 +1,7 @@
 {
  "item.morevanillaarmors.enderite": "Enderite Ingot",
- "item.morevanillaarmors.enderite_shard": "Enderite Shard"
+ "item.morevanillaarmors.enderite_shard": "Enderite Shard",
+
+ "block.morevanillaarmors.enderite_block": "Block of Enderite",
+ "block.morevanillaarmors.enderite_ore": "Enderite Ore"
 }
