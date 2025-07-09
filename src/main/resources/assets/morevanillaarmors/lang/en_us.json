@@ -1,7 +1,10 @@
 {
- "item.morevanillaarmors.enderite": "Enderite Ingot",
  "item.morevanillaarmors.enderite_shard": "Enderite Shard",
+ "item.morevanillaarmors.enderite": "Enderite Ingot",
 
+ "block.morevanillaarmors.enderite_ore": "Enderite Ore",
  "block.morevanillaarmors.enderite_block": "Block of Enderite",
- "block.morevanillaarmors.enderite_ore": "Enderite Ore"
+
+ "creativetab.morevanillaarmors.enderite_items": "Enderite Items",
+ "creativetab.morevanillaarmors.enderite_blocks": "Enderite Blocks"
 }

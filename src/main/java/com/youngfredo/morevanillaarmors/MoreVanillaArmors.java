@@ -1,6 +1,7 @@
 package com.youngfredo.morevanillaarmors;
 
 import com.youngfredo.morevanillaarmors.block.ModBlocks;
+import com.youngfredo.morevanillaarmors.item.ModCreativeModeTabs;
 import com.youngfredo.morevanillaarmors.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -37,6 +38,9 @@ public class MoreVanillaArmors {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -53,13 +57,13 @@ public class MoreVanillaArmors {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.ENDERITE);
             event.accept(ModItems.ENDERITE_SHARD);
+            event.accept(ModItems.ENDERITE);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.ENDERITE_BLOCK);
             event.accept(ModBlocks.ENDERITE_ORE);
+            event.accept(ModBlocks.ENDERITE_BLOCK);
         }
     }
 
