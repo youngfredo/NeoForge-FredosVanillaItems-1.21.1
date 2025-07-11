@@ -1,7 +1,7 @@
 {
   "replace": false ,
   "values": [
-    "morevanillaarmors:enderite_ore",
-    "morevanillaarmors:enderite_block"
+    "fredosvanillaitems:enderite_ore",
+    "fredosvanillaitems:enderite_block"
   ]
 }

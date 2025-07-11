@@ -1,0 +1,10 @@
+{
+ "item.fredosvanillaitems.enderite_shard": "Enderite Shard",
+ "item.fredosvanillaitems.enderite": "Enderite Ingot",
+
+ "block.fredosvanillaitems.enderite_ore": "Enderite Ore",
+ "block.fredosvanillaitems.enderite_block": "Block of Enderite",
+
+ "creativetab.fredosvanillaitems.enderite_items": "Enderite Items",
+ "creativetab.fredosvanillaitems.enderite_blocks": "Enderite Blocks"
+}
