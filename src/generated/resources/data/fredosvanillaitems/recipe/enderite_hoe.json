@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "fredosvanillaitems:enderite"
+    },
+    "C": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "BB ",
+    " C ",
+    " C "
+  ],
+  "result": {
+    "count": 1,
+    "id": "fredosvanillaitems:enderite_hoe"
+  }
+}

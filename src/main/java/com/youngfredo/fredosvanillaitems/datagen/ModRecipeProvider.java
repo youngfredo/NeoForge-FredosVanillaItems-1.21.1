@@ -34,7 +34,45 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('#', Items.ENDER_EYE)
                 .unlockedBy("has_enderite_shard", has(ModItems.ENDERITE_SHARD)).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_SWORD.get())
+                .pattern(" B ")
+                .pattern(" B ")
+                .pattern(" C ")
+                .define('B', ModItems.ENDERITE.get())
+                .define('C', Items.STICK)
+                .unlockedBy("has_enderite", has(ModItems.ENDERITE)).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_PICKAXE.get())
+                .pattern("BBB")
+                .pattern(" C ")
+                .pattern(" C ")
+                .define('B', ModItems.ENDERITE.get())
+                .define('C', Items.STICK)
+                .unlockedBy("has_enderite", has(ModItems.ENDERITE)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_AXE.get())
+                .pattern("BB ")
+                .pattern("BC ")
+                .pattern(" C ")
+                .define('B', ModItems.ENDERITE.get())
+                .define('C', Items.STICK)
+                .unlockedBy("has_enderite", has(ModItems.ENDERITE)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_SHOVEL.get())
+                .pattern(" B ")
+                .pattern(" C ")
+                .pattern(" C ")
+                .define('B', ModItems.ENDERITE.get())
+                .define('C', Items.STICK)
+                .unlockedBy("has_enderite", has(ModItems.ENDERITE)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_HOE.get())
+                .pattern("BB ")
+                .pattern(" C ")
+                .pattern(" C ")
+                .define('B', ModItems.ENDERITE.get())
+                .define('C', Items.STICK)
+                .unlockedBy("has_enderite", has(ModItems.ENDERITE)).save(recipeOutput);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ENDERITE.get(), 9)
                 .requires(ModBlocks.ENDERITE_BLOCK)
