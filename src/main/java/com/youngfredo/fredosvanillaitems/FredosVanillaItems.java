@@ -65,6 +65,22 @@ public class FredosVanillaItems {
             event.accept(ModBlocks.ENDERITE_ORE);
             event.accept(ModBlocks.ENDERITE_BLOCK);
         }
+
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.ENDERITE_PICKAXE);
+            event.accept(ModItems.ENDERITE_AXE);
+            event.accept(ModItems.ENDERITE_SHOVEL);
+            event.accept(ModItems.ENDERITE_HOE);
+            //event.accept(ModItems.ENDERITE_HELMET);
+            //event.accept(ModItems.ENDERITE_CHESTPLATE);
+            //event.accept(ModItems.ENDERITE_LEGGINGS);
+            //event.accept(ModItems.ENDERITE_BOOTS);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.ENDERITE_SWORD);
+            event.accept(ModItems.ENDERITE_AXE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

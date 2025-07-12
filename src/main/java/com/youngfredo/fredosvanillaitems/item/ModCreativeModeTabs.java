@@ -24,6 +24,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENDERITE_SHARD);
                         output.accept(ModItems.ENDERITE);
 
+                        output.accept(ModItems.ENDERITE_SWORD);
+                        output.accept(ModItems.ENDERITE_PICKAXE);
+                        output.accept(ModItems.ENDERITE_AXE);
+                        output.accept(ModItems.ENDERITE_SHOVEL);
+                        output.accept(ModItems.ENDERITE_HOE);
+
+
                     }).build());
 
     public static final Supplier<CreativeModeTab> ENDERITE_BLOCK_TAB = CREATIVE_MODE_TAB.register("enderite_blocks_tab",

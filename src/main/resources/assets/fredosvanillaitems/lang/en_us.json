@@ -2,6 +2,12 @@
  "item.fredosvanillaitems.enderite_shard": "Enderite Shard",
  "item.fredosvanillaitems.enderite": "Enderite Ingot",
 
+ "item.fredosvanillaitems.enderite_sword": "Enderite Sword",
+ "item.fredosvanillaitems.enderite_pickaxe": "Enderite Pickaxe",
+ "item.fredosvanillaitems.enderite_axe": "Enderite Axe",
+ "item.fredosvanillaitems.enderite_shovel": "Enderite Shovel",
+ "item.fredosvanillaitems.enderite_hoe": "Enderite Hoe",
+
  "block.fredosvanillaitems.enderite_ore": "Enderite Ore",
  "block.fredosvanillaitems.enderite_block": "Block of Enderite",
 
