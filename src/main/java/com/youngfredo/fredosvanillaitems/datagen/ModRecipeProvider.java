@@ -2,11 +2,9 @@ package com.youngfredo.fredosvanillaitems.datagen;
 
 import com.youngfredo.fredosvanillaitems.block.ModBlocks;
 import com.youngfredo.fredosvanillaitems.item.ModItems;
-import net.minecraft.client.Minecraft;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 

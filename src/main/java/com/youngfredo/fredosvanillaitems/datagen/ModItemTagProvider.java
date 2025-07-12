@@ -2,7 +2,6 @@ package com.youngfredo.fredosvanillaitems.datagen;
 
 import com.youngfredo.fredosvanillaitems.FredosVanillaItems;
 import com.youngfredo.fredosvanillaitems.item.ModItems;
-import com.youngfredo.fredosvanillaitems.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;

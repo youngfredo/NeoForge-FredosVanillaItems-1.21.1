@@ -1,0 +1,7 @@
+// 1.21	2025-07-12T04:43:08.7100322	Recipes
+551ceb4688f2f77670046da67e78e1127c089cab data/fredosvanillaitems/advancement/recipes/misc/enderite.json
+d298479125cd896b7a6ced7710e9cae34385a566 data/fredosvanillaitems/advancement/recipes/misc/enderite_block.json
+9e9c36b272f35e7c07d6c359e140b663c3301243 data/fredosvanillaitems/advancement/recipes/misc/enderite_from_enderite_block.json
+cca0fcaff4b7163f445b95eb4aa7617fc647b3d9 data/fredosvanillaitems/recipe/enderite.json
+261470e8adc3fdf7706029094bdb01266338ed21 data/fredosvanillaitems/recipe/enderite_block.json
+5c837f5f4c3361c0df0d61ddffc3536c2c60f5cb data/fredosvanillaitems/recipe/enderite_from_enderite_block.json
