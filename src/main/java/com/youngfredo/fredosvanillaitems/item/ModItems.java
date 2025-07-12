@@ -20,13 +20,13 @@ public class ModItems {
 
     public static final DeferredItem<SwordItem> ENDERITE_SWORD = ITEMS.register("enderite_sword",
             () -> new SwordItem(ModToolTiers.ENDERITE, new Item.Properties()
-                    .attributes(SwordItem.createAttributes(ModToolTiers.ENDERITE, 3, -2.0f))));
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ENDERITE, 5, -2.0f))));
     public static final DeferredItem<PickaxeItem> ENDERITE_PICKAXE = ITEMS.register("enderite_pickaxe",
             () -> new PickaxeItem(ModToolTiers.ENDERITE, new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.ENDERITE, 1.0F, -2.8f))));
     public static final DeferredItem<AxeItem> ENDERITE_AXE = ITEMS.register("enderite_axe",
             () -> new AxeItem(ModToolTiers.ENDERITE, new Item.Properties()
-                    .attributes(AxeItem.createAttributes(ModToolTiers.ENDERITE, 5.0F, -3.0f))));
+                    .attributes(AxeItem.createAttributes(ModToolTiers.ENDERITE, 7.0F, -3.0f))));
     public static final DeferredItem<ShovelItem> ENDERITE_SHOVEL = ITEMS.register("enderite_shovel",
             () -> new ShovelItem(ModToolTiers.ENDERITE, new Item.Properties()
                     .attributes(ShovelItem.createAttributes(ModToolTiers.ENDERITE, 1.5F, -3.0f))));

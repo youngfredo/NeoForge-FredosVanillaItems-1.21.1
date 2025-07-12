@@ -24,7 +24,7 @@ public class ModBlocks {
                     .strength(128f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
     public static final DeferredBlock<Block> ENDERITE_ORE = registerBlock("enderite_ore",
             () -> new DropExperienceBlock(UniformInt.of(4, 8),
-                    BlockBehaviour.Properties.of().strength(256f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+                    BlockBehaviour.Properties.of().strength(128f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
 
 
