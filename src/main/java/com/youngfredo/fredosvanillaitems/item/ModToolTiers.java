@@ -7,6 +7,6 @@ import net.neoforged.neoforge.common.SimpleTier;
 
 public class ModToolTiers {
     public static final Tier ENDERITE = new SimpleTier(ModTags.Blocks.INCORRECT_FOR_ENDERITE_TOOL,
-            4561,64f, 6f, 32, () -> Ingredient.of(ModItems.ENDERITE));
+            4561,32f, 6f, 30, () -> Ingredient.of(ModItems.ENDERITE));
 
 }
