@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_enderite": {
+    "has_enderite_upgrade_smithing_template": {
       "conditions": {
         "items": [
           {
-            "items": "fredosvanillaitems:enderite"
+            "items": "fredosvanillaitems:enderite_upgrade_smithing_template"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "fredosvanillaitems:enderite_helmet"
+        "recipe": "fredosvanillaitems:enderite_upgrade_smithing_template"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_enderite"
+      "has_enderite_upgrade_smithing_template"
     ]
   ],
   "rewards": {
     "recipes": [
-      "fredosvanillaitems:enderite_helmet"
+      "fredosvanillaitems:enderite_upgrade_smithing_template"
     ]
   }
 }

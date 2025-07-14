@@ -59,6 +59,7 @@ public class FredosVanillaItems {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.ENDERITE_SHARD);
             event.accept(ModItems.ENDERITE);
+            event.accept(ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
@@ -67,20 +68,22 @@ public class FredosVanillaItems {
         }
 
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.ENDERITE_SHOVEL);
             event.accept(ModItems.ENDERITE_PICKAXE);
             event.accept(ModItems.ENDERITE_AXE);
-            event.accept(ModItems.ENDERITE_SHOVEL);
             event.accept(ModItems.ENDERITE_HOE);
 
-            event.accept(ModItems.ENDERITE_HELMET);
-            event.accept(ModItems.ENDERITE_CHESTPLATE);
-            event.accept(ModItems.ENDERITE_LEGGINGS);
-            event.accept(ModItems.ENDERITE_BOOTS);
+
         }
 
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.ENDERITE_SWORD);
             event.accept(ModItems.ENDERITE_AXE);
+
+            event.accept(ModItems.ENDERITE_HELMET);
+            event.accept(ModItems.ENDERITE_CHESTPLATE);
+            event.accept(ModItems.ENDERITE_LEGGINGS);
+            event.accept(ModItems.ENDERITE_BOOTS);
         }
     }
 

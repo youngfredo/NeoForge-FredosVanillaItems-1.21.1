@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "template": {
+    "item": "fredosvanillaitems:enderite_upgrade_smithing_template"
+  },
+  "addition": {
+    "item": "fredosvanillaitems:enderite"
+  },
+  "result": {
+    "count": 1,
+    "id": "fredosvanillaitems:enderite_axe"
+  }
+}

@@ -6,6 +6,8 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 
 import java.util.concurrent.CompletableFuture;
@@ -34,77 +36,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('#', Items.ENDER_EYE)
                 .unlockedBy("has_enderite_shard", has(ModItems.ENDERITE_SHARD)).save(recipeOutput);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_SWORD.get())
-                .pattern(" B ")
-                .pattern(" B ")
-                .pattern(" C ")
-                .define('B', ModItems.ENDERITE.get())
-                .define('C', Items.STICK)
-                .unlockedBy("has_enderite", has(ModItems.ENDERITE)).save(recipeOutput);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_PICKAXE.get())
-                .pattern("BBB")
-                .pattern(" C ")
-                .pattern(" C ")
-                .define('B', ModItems.ENDERITE.get())
-                .define('C', Items.STICK)
-                .unlockedBy("has_enderite", has(ModItems.ENDERITE)).save(recipeOutput);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_AXE.get())
-                .pattern("BB ")
-                .pattern("BC ")
-                .pattern(" C ")
-                .define('B', ModItems.ENDERITE.get())
-                .define('C', Items.STICK)
-                .unlockedBy("has_enderite", has(ModItems.ENDERITE)).save(recipeOutput);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_SHOVEL.get())
-                .pattern(" B ")
-                .pattern(" C ")
-                .pattern(" C ")
-                .define('B', ModItems.ENDERITE.get())
-                .define('C', Items.STICK)
-                .unlockedBy("has_enderite", has(ModItems.ENDERITE)).save(recipeOutput);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_HOE.get())
-                .pattern("BB ")
-                .pattern(" C ")
-                .pattern(" C ")
-                .define('B', ModItems.ENDERITE.get())
-                .define('C', Items.STICK)
-                .unlockedBy("has_enderite", has(ModItems.ENDERITE)).save(recipeOutput);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_HELMET.get())
-                .pattern("BBB")
-                .pattern("B B")
-                .pattern("   ")
-                .define('B', ModItems.ENDERITE.get())
-                .unlockedBy("has_enderite", has(ModItems.ENDERITE)).save(recipeOutput);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_CHESTPLATE.get())
-                .pattern("B B")
-                .pattern("BBB")
-                .pattern("BBB")
-                .define('B', ModItems.ENDERITE.get())
-                .unlockedBy("has_enderite", has(ModItems.ENDERITE)).save(recipeOutput);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_LEGGINGS.get())
-                .pattern("BBB")
-                .pattern("B B")
-                .pattern("B B")
-                .define('B', ModItems.ENDERITE.get())
-                .unlockedBy("has_enderite", has(ModItems.ENDERITE)).save(recipeOutput);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_BOOTS.get())
-                .pattern("   ")
-                .pattern("B B")
-                .pattern("B B")
-                .define('B', ModItems.ENDERITE.get())
-                .unlockedBy("has_enderite", has(ModItems.ENDERITE)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE.get(), 2)
+                .pattern("#S#")
+                .pattern("#C#")
+                .pattern("###")
+                .define('#', Items.DIAMOND)
+                .define('S', ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE.get())
+                .define('C', Items.END_STONE)
+                .unlockedBy("has_enderite_upgrade_smithing_template", has(ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE)).save(recipeOutput);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ENDERITE.get(), 9)
                 .requires(ModBlocks.ENDERITE_BLOCK)
                 .unlockedBy("has_enderite_block", has(ModBlocks.ENDERITE_BLOCK))
                 .save(recipeOutput, "fredosvanillaitems:enderite_from_enderite_block");
+
     }
 }

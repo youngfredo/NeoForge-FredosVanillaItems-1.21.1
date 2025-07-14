@@ -1,6 +1,7 @@
 {
  "item.fredosvanillaitems.enderite_shard": "Enderite Shard",
  "item.fredosvanillaitems.enderite": "Enderite Ingot",
+ "item.fredosvanillaitems.enderite_upgrade_smithing_template": "Smithing Template",
 
  "item.fredosvanillaitems.enderite_sword": "Enderite Sword",
  "item.fredosvanillaitems.enderite_pickaxe": "Enderite Pickaxe",
@@ -17,5 +18,12 @@
  "block.fredosvanillaitems.enderite_block": "Block of Enderite",
 
  "creativetab.fredosvanillaitems.enderite_items": "Enderite Items",
- "creativetab.fredosvanillaitems.enderite_blocks": "Enderite Blocks"
+ "creativetab.fredosvanillaitems.enderite_blocks": "Enderite Blocks",
+
+ "tooltip.fredosvanillaitems.enderite_upgrade_smithing_template.tooltip":"§7Enderite Upgrade§r",
+ "tooltip.fredosvanillaitems.enderite_upgrade_smithing_template.tooltipspace": " ",
+ "tooltip.fredosvanillaitems.enderite_upgrade_smithing_template.tooltipapplies": "§7Applies to:§r",
+ "tooltip.fredosvanillaitems.enderite_upgrade_smithing_template.tooltipequipment": " §9Netherite Equipment§r",
+ "tooltip.fredosvanillaitems.enderite_upgrade_smithing_template.tooltipingredients": "§7Ingredients:§r",
+ "tooltip.fredosvanillaitems.enderite_upgrade_smithing_template.tooltipmaterial": " §9Enderite Ingot§r"
 }

@@ -21,9 +21,6 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FredosVanillaItems.MOD_ID, "emerald_items_tab"))
                     .title(Component.translatable("creativetab.fredosvanillaitems.enderite_items"))
                     .displayItems((parameters, output) -> {
-                        output.accept(ModItems.ENDERITE_SHARD);
-                        output.accept(ModItems.ENDERITE);
-
                         output.accept(ModItems.ENDERITE_SWORD);
                         output.accept(ModItems.ENDERITE_PICKAXE);
                         output.accept(ModItems.ENDERITE_AXE);
@@ -34,6 +31,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENDERITE_CHESTPLATE);
                         output.accept(ModItems.ENDERITE_LEGGINGS);
                         output.accept(ModItems.ENDERITE_BOOTS);
+
+                        output.accept(ModItems.ENDERITE_SHARD);
+                        output.accept(ModItems.ENDERITE);
+                        output.accept(ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE);
+
 
                     }).build());
 
