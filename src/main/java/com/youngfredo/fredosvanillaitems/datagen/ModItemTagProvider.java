@@ -30,5 +30,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.ENDERITE_SHOVEL.get());
         tag(ItemTags.HOES)
                 .add(ModItems.ENDERITE_HOE.get());
+
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.ENDERITE_HELMET.get())
+                .add(ModItems.ENDERITE_CHESTPLATE.get())
+                .add(ModItems.ENDERITE_LEGGINGS.get())
+                .add(ModItems.ENDERITE_BOOTS.get());
+
     }
 }

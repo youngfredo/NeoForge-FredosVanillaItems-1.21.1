@@ -71,10 +71,11 @@ public class FredosVanillaItems {
             event.accept(ModItems.ENDERITE_AXE);
             event.accept(ModItems.ENDERITE_SHOVEL);
             event.accept(ModItems.ENDERITE_HOE);
-            //event.accept(ModItems.ENDERITE_HELMET);
-            //event.accept(ModItems.ENDERITE_CHESTPLATE);
-            //event.accept(ModItems.ENDERITE_LEGGINGS);
-            //event.accept(ModItems.ENDERITE_BOOTS);
+
+            event.accept(ModItems.ENDERITE_HELMET);
+            event.accept(ModItems.ENDERITE_CHESTPLATE);
+            event.accept(ModItems.ENDERITE_LEGGINGS);
+            event.accept(ModItems.ENDERITE_BOOTS);
         }
 
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {

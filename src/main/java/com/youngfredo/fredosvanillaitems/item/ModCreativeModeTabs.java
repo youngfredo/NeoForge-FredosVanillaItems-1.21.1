@@ -30,6 +30,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENDERITE_SHOVEL);
                         output.accept(ModItems.ENDERITE_HOE);
 
+                        output.accept(ModItems.ENDERITE_HELMET);
+                        output.accept(ModItems.ENDERITE_CHESTPLATE);
+                        output.accept(ModItems.ENDERITE_LEGGINGS);
+                        output.accept(ModItems.ENDERITE_BOOTS);
 
                     }).build());
 
