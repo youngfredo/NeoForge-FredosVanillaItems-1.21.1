@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "fredosvanillaitems:enderite"
+    }
+  },
+  "pattern": [
+    "   ",
+    "B B",
+    "B B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fredosvanillaitems:enderite_boots"
+  }
+}
