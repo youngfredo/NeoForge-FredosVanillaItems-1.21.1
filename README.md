@@ -17,6 +17,7 @@ Ruby (Ore, Armor, Tools)
 
 Copper (Armor, Tools)
 
+Achievements
 ### Update Schedule:
 Currently, updates are scheduled to drop at least
 once per week until all planned features are implemented.
