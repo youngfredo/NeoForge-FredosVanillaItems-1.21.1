@@ -3,6 +3,7 @@ package com.youngfredo.fredosvanillaitems;
 import com.youngfredo.fredosvanillaitems.block.ModBlocks;
 import com.youngfredo.fredosvanillaitems.item.ModCreativeModeTabs;
 import com.youngfredo.fredosvanillaitems.item.ModItems;
+import com.youngfredo.fredosvanillaitems.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -43,6 +44,9 @@ public class FredosVanillaItems {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+
+        ModLootModifiers.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

@@ -22,9 +22,9 @@ public class ModPlacedFeatures {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, END_ENDERITE_ORE_LARGE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.END_ENDERITE_ORE_LARGE_KEY),
-                ModOrePlacement.rareOrePlacement(3, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),VerticalAnchor.absolute(160))));
+                ModOrePlacement.rareOrePlacement(12, HeightRangePlacement.uniform(VerticalAnchor.absolute(10),VerticalAnchor.absolute(72))));
         register(context, END_ENDERITE_ORE_SMALL_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.END_ENDERITE_ORE_SMALL_KEY),
-                ModOrePlacement.commonOrePlacement(6, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),VerticalAnchor.absolute(160))));
+                ModOrePlacement.commonOrePlacement(24, HeightRangePlacement.uniform(VerticalAnchor.absolute(10),VerticalAnchor.absolute(72))));
 
     }
 
