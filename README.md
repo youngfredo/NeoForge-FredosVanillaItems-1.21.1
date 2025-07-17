@@ -1,25 +1,47 @@
 
-Installation information
+<img src="src/main/resources/FredosVanillaItems-Icon.png">
+
+📚 About Fredo's Vanilla Items
+=======
+## This Mod adds some Vanilla-friendly Ores and Equipment:
+
+### Currently implemented:
+
+Enderite (Ore, Armor, Tools etc.)
+
+### Coming Soon:
+
+Emerald (Armor, Tools)
+
+Ruby (Ore, Armor, Tools)
+
+Copper (Armor, Tools)
+
+### Update Schedule:
+Currently, updates are scheduled to drop at least
+once per week until all planned features are implemented.
+
+
+📥 Downloads
 =======
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+The latest release of this Mod can always be found on
+[Modrinth](placeholder) and [Curseforge](placeholder).
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+This mod is currently only in development for 1.21.1 but will be updated for future versions once all (currently) planned features have been implemented.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+- Minecraft 1.21.1 (latest): [Modrinth](placeholder) - [Curseforge](placeholder)
+- Minecraft 1.21.3 (coming soon)
+- Minecraft 1.21.4 (coming soon)
+- Minecraft 1.21.5 (coming soon)
+- Minecraft 1.21.6 (coming soon)
+- Minecraft 1.21.7 (coming soon)
 
-Mapping Names:
+🖥️ Installation
 ============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+_This mod currently only supports NeoForge._
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+Download and Install the needed [NeoForge](https://neoforged.net) version 
+
+(Minecraft 1.21.1 = NeoForge 1.21.1)
+
