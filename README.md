@@ -27,11 +27,11 @@ once per week until all planned features are implemented.
 =======
 
 The latest release of this Mod can always be found on
-[Modrinth](placeholder) and [Curseforge](placeholder).
+[Modrinth](https://modrinth.com/mod/fredos-vanilla-items) and [Curseforge](https://legacy.curseforge.com/minecraft/mc-mods/fredos-vanilla-items-neoforge).
 
 This mod is currently only in development for 1.21.1 but will be updated for future versions once all (currently) planned features have been implemented.
 
-- Minecraft 1.21.1 (latest): [Modrinth](placeholder) - [Curseforge](placeholder)
+- Minecraft 1.21.1 (latest): [Modrinth](https://modrinth.com/mod/fredos-vanilla-items/version/0.1.0) - [Curseforge](https://legacy.curseforge.com/minecraft/mc-mods/fredos-vanilla-items-neoforge/files/6779233)
 - Minecraft 1.21.3 (coming soon)
 - Minecraft 1.21.4 (coming soon)
 - Minecraft 1.21.5 (coming soon)
