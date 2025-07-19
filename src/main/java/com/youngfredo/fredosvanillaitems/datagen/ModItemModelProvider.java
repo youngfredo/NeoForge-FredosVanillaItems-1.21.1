@@ -47,11 +47,21 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.ENDERITE_AXE);
         handheldItem(ModItems.ENDERITE_SHOVEL);
         handheldItem(ModItems.ENDERITE_HOE);
+        handheldItem(ModItems.EMERALD_SWORD);
+        handheldItem(ModItems.EMERALD_PICKAXE);
+        handheldItem(ModItems.EMERALD_AXE);
+        handheldItem(ModItems.EMERALD_SHOVEL);
+        handheldItem(ModItems.EMERALD_HOE);
+
 
         trimmedArmorItem(ModItems.ENDERITE_HELMET);
         trimmedArmorItem(ModItems.ENDERITE_CHESTPLATE);
         trimmedArmorItem(ModItems.ENDERITE_LEGGINGS);
         trimmedArmorItem(ModItems.ENDERITE_BOOTS);
+        //trimmedArmorItem(ModItems.EMERALD_HELMET);
+        //trimmedArmorItem(ModItems.EMERALD_CHESTPLATE);
+        //trimmedArmorItem(ModItems.EMERALD_LEGGINGS);
+        //trimmedArmorItem(ModItems.EMERALD_BOOTS);
     }
 
     // Shoutout to El_Redstoniano for making this

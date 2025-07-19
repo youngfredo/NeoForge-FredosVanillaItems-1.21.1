@@ -30,12 +30,26 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.ENDERITE_SHOVEL.get());
         tag(ItemTags.HOES)
                 .add(ModItems.ENDERITE_HOE.get());
+        tag(ItemTags.SWORDS)
+                .add(ModItems.EMERALD_SWORD.get());
+        tag(ItemTags.PICKAXES)
+                .add(ModItems.EMERALD_PICKAXE.get());
+        tag(ItemTags.AXES)
+                .add(ModItems.EMERALD_AXE.get());
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.EMERALD_SHOVEL.get());
+        tag(ItemTags.HOES)
+                .add(ModItems.EMERALD_HOE.get());
 
         this.tag(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.ENDERITE_HELMET.get())
                 .add(ModItems.ENDERITE_CHESTPLATE.get())
                 .add(ModItems.ENDERITE_LEGGINGS.get())
                 .add(ModItems.ENDERITE_BOOTS.get());
+        //.add(ModItems.EMERALD_HELMET.get())
+        //.add(ModItems.EMERALD_CHESTPLATE.get())
+        //.add(ModItems.EMERALD_LEGGINGS.get())
+        //.add(ModItems.EMERALD_BOOTS.get());
 
     }
 }

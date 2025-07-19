@@ -1,5 +1,0 @@
-// 1.21.1	2025-07-17T04:34:57.7701873	Tags for minecraft:block mod id fredosvanillaitems
-edb34417be98be5ce72f3d8b7cd00bd59dd6dd94 data/fredosvanillaitems/tags/block/incorrect_for_enderite_tool.json
-a249c46329a41538f49a564e1f14338aaf1be5a0 data/fredosvanillaitems/tags/block/needs_enderite_tool.json
-f74ce0aed885182fe6c6b36f277edc8d84144ac2 data/minecraft/tags/block/mineable/pickaxe.json
-a31888662caf1005fa80d6d3e1d7d971150f9de3 data/minecraft/tags/block/needs_diamond_tool.json

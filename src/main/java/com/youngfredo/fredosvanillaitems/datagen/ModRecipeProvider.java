@@ -50,5 +50,44 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_enderite_block", has(ModBlocks.ENDERITE_BLOCK))
                 .save(recipeOutput, "fredosvanillaitems:enderite_from_enderite_block");
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_SWORD.get())
+                .pattern(" S ")
+                .pattern(" S ")
+                .pattern(" # ")
+                .define('S', Items.EMERALD)
+                .define('#', Items.STICK)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_PICKAXE.get())
+                .pattern("SSS")
+                .pattern(" # ")
+                .pattern(" # ")
+                .define('S', Items.EMERALD)
+                .define('#', Items.STICK)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_AXE.get())
+                .pattern("SS ")
+                .pattern("S# ")
+                .pattern(" # ")
+                .define('S', Items.EMERALD)
+                .define('#', Items.STICK)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_SHOVEL.get())
+                .pattern(" S ")
+                .pattern(" # ")
+                .pattern(" # ")
+                .define('S', Items.EMERALD)
+                .define('#', Items.STICK)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_HOE.get())
+                .pattern("SS ")
+                .pattern(" # ")
+                .pattern(" # ")
+                .define('S', Items.EMERALD)
+                .define('#', Items.STICK)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
     }
 }

@@ -7,21 +7,21 @@
 
 ### Currently implemented:
 
-Enderite (Ore, Armor, Tools etc.)
+Enderite (Ore, Armor, Tools etc.) as of 0.1.0
 
 ### Coming Soon:
 
-Emerald (Armor, Tools)
+Emerald (Armor, Tools) - 0.2.0
 
-Ruby (Ore, Armor, Tools)
+Ruby (Ore, Armor, Tools) - 0.3.0
 
-Copper (Armor, Tools)
+Copper (Armor, Tools) - 0.4.0
 
-Advancements
+Advancements 0.5.0
 
-Custom Sounds
+Custom Sounds 0.6.0
 
-Updated Textures
+Updated Textures 0.7.0
 ### Update Schedule:
 Currently, updates are scheduled to drop at least
 once per week until all planned features are implemented.
@@ -31,11 +31,11 @@ once per week until all planned features are implemented.
 =======
 
 The latest release of this Mod can always be found on
-[Modrinth](https://modrinth.com/mod/fredos-vanilla-items) and [Curseforge](https://legacy.curseforge.com/minecraft/mc-mods/fredos-vanilla-items-neoforge).
+[Modrinth](https://modrinth.com/mod/fredos-vanilla-items) and [Curseforge: currently not approved](https://curseforge.com).
 
 This mod is currently only in development for 1.21.1 but will be updated for future versions once all (currently) planned features have been implemented.
 
-- Minecraft 1.21.1 (latest): [Modrinth](https://modrinth.com/mod/fredos-vanilla-items/version/0.1.0) - [Curseforge](https://legacy.curseforge.com/minecraft/mc-mods/fredos-vanilla-items-neoforge/files/6779233)
+- Minecraft 1.21.1 (latest): [Modrinth](https://modrinth.com/mod/fredos-vanilla-items/version/0.1.0)
 - Minecraft 1.21.3 (coming soon)
 - Minecraft 1.21.4 (coming soon)
 - Minecraft 1.21.5 (coming soon)
