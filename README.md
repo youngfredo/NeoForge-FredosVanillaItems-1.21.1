@@ -25,6 +25,14 @@ Updated Textures 0.7.0
 
 Custom Armor Trims 0.8.0
 
+### Future Mods:
+
+Fredo's Armor Expansion
+
+Fredo's Tool Expansion
+
+Fredo's Resource Trees
+
 ### Update Schedule:
 Currently, updates are scheduled to drop at least
 once per week until all planned features are implemented.
@@ -34,7 +42,7 @@ once per week until all planned features are implemented.
 =======
 
 The latest release of this Mod can always be found on
-[Modrinth](https://modrinth.com/mod/fredos-vanilla-items) and [Curseforge:](https://www.curseforge.com/minecraft/mc-mods/fredos-ores-armors-and-tools-neoforge).
+[Modrinth](https://modrinth.com/mod/fredos-vanilla-items) and [Curseforge](https://www.curseforge.com/minecraft/mc-mods/fredos-ores-armors-and-tools-neoforge).
 
 This mod is currently only in development for 1.21.1 but will be updated for future versions once all (currently) planned features have been implemented.
 
