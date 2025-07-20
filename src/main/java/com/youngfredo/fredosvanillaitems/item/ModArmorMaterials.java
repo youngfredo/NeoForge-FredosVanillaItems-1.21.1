@@ -11,6 +11,7 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.EnumMap;
@@ -25,14 +26,33 @@ public class ModArmorMaterials {
                 attribute.put(ArmorItem.Type.CHESTPLATE, 12);
                 attribute.put(ArmorItem.Type.HELMET, 5);
                 attribute.put(ArmorItem.Type.BODY, 16);
-            }), 30, 5f, 0.2f, () -> ModItems.ENDERITE.get());
+            }),
+            SoundEvents.ARMOR_EQUIP_NETHERITE,
+            30,
+            5f,
+            0.2f,
+            () -> ModItems.ENDERITE.get());
+
+    public static final Holder<ArmorMaterial> EMERALD_ARMOR_MATERIAL = register("emerald",
+            Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
+                attribute.put(ArmorItem.Type.BOOTS, 2);
+                attribute.put(ArmorItem.Type.LEGGINGS, 5);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 7);
+                attribute.put(ArmorItem.Type.HELMET, 2);
+                attribute.put(ArmorItem.Type.BODY, 8);
+            }),
+            SoundEvents.ARMOR_EQUIP_DIAMOND,
+            18,
+            0.0f,
+            0.0f,
+            () -> Items.EMERALD);
 
 
-    private static Holder<ArmorMaterial> register(String name, EnumMap<ArmorItem.Type, Integer> typeProtection,
-                                                  int enchantability, float toughness, float knockbackResistance,
-                                                  Supplier<Item> ingredientItem) {
+    private static Holder<ArmorMaterial> register(
+            String name, EnumMap<ArmorItem.Type, Integer> typeProtection, Holder<SoundEvent> equipSound,
+            int enchantability, float toughness, float knockbackResistance,
+            Supplier<Item> ingredientItem) {
         ResourceLocation location = ResourceLocation.fromNamespaceAndPath(FredosVanillaItems.MOD_ID, name);
-        Holder<SoundEvent> equipSound = SoundEvents.ARMOR_EQUIP_NETHERITE;
         Supplier<Ingredient> ingredient = () -> Ingredient.of(ingredientItem.get());
         List<ArmorMaterial.Layer> layers = List.of(new ArmorMaterial.Layer(location));
 

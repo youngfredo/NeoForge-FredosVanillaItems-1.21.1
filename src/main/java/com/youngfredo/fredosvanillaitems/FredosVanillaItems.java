@@ -87,15 +87,15 @@ public class FredosVanillaItems {
 
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.EMERALD_SWORD);
-            event.accept(ModItems.EMERALD_AXE);
-
-            //event.accept(ModItems.EMERALD_HELMET);
-            //event.accept(ModItems.EMERALD_CHESTPLATE);
-            //event.accept(ModItems.EMERALD_LEGGINGS);
-            //event.accept(ModItems.EMERALD_BOOTS);
-
             event.accept(ModItems.ENDERITE_SWORD);
+            event.accept(ModItems.EMERALD_AXE);
             event.accept(ModItems.ENDERITE_AXE);
+
+
+            event.accept(ModItems.EMERALD_HELMET);
+            event.accept(ModItems.EMERALD_CHESTPLATE);
+            event.accept(ModItems.EMERALD_LEGGINGS);
+            event.accept(ModItems.EMERALD_BOOTS);
 
             event.accept(ModItems.ENDERITE_HELMET);
             event.accept(ModItems.ENDERITE_CHESTPLATE);

@@ -45,11 +45,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.ENDERITE_HELMET.get())
                 .add(ModItems.ENDERITE_CHESTPLATE.get())
                 .add(ModItems.ENDERITE_LEGGINGS.get())
-                .add(ModItems.ENDERITE_BOOTS.get());
-        //.add(ModItems.EMERALD_HELMET.get())
-        //.add(ModItems.EMERALD_CHESTPLATE.get())
-        //.add(ModItems.EMERALD_LEGGINGS.get())
-        //.add(ModItems.EMERALD_BOOTS.get());
+                .add(ModItems.ENDERITE_BOOTS.get())
+                .add(ModItems.EMERALD_HELMET.get())
+                .add(ModItems.EMERALD_CHESTPLATE.get())
+                .add(ModItems.EMERALD_LEGGINGS.get())
+                .add(ModItems.EMERALD_BOOTS.get());
 
     }
 }

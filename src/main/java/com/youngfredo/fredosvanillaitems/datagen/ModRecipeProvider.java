@@ -89,5 +89,34 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', Items.EMERALD)
                 .define('#', Items.STICK)
                 .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_HELMET.get())
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("   ")
+                .define('S', Items.EMERALD)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_CHESTPLATE.get())
+                .pattern("S S")
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S', Items.EMERALD)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_LEGGINGS.get())
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("S S")
+                .define('S', Items.EMERALD)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_BOOTS.get())
+                .pattern("S S")
+                .pattern("S S")
+                .pattern("   ")
+                .define('S', Items.EMERALD)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
     }
 }
