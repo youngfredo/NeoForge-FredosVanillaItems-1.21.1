@@ -1,37 +1,31 @@
 
 <img src="src/main/resources/FredosVanillaItems-Icon.png">
 
-📚 About Fredo's Vanilla Items
-=======
-## This Mod adds some Vanilla-friendly Ores and Equipment:
+![Static Badge](https://img.shields.io/badge/NeoForge-grey?style=for-the-badge&label=MOD%20LOADER%3A&labelColor=yellow)
+![Static Badge](https://img.shields.io/badge/1.21.1-grey?style=for-the-badge&label=MINECRAFT%20VERSION%3A&labelColor=yellow)  
+![Static Badge](https://img.shields.io/badge/REQUIRED-grey?style=for-the-badge&label=SERVER%20SIDE%3A&labelColor=yellow)
+![Static Badge](https://img.shields.io/badge/REQUIRED-grey?style=for-the-badge&label=CLIENT%20SIDE%3A&labelColor=yellow)
 
+
+
+
+## This Mod adds some Vanilla-friendly Ores and Equipment:
 ### Currently implemented:
 
-Enderite (Armor, Tools, Ore etc.) as of 0.1.0
-
+Enderite (Armor, Tools, Ore etc.) as of 0.1.0  
 Emerald (Armor, Tools) as of 0.2.0
 
 ### Coming Soon:
 
-Ruby (Ore, Armor, Tools) - 0.3.0
-
-Copper (Armor, Tools) - 0.4.0
-
-Advancements 0.5.0
-
-Custom Sounds 0.6.0
-
-Updated Textures 0.7.0
-
-Custom Armor Trims 0.8.0
-
-### Future Mods:
-
-Fredo's Armor Expansion
-
-Fredo's Tool Expansion
-
-Fredo's Resource Trees
+Ruby (Ore, Armor, Tools)  
+Copper (Armor, Tools)  
+Advancements  
+Custom Sounds  
+Updated Textures  
+Custom Armor Trims  
+Food
+Horse Armors  
+Miscellaneous Recipes
 
 ### Update Schedule:
 Currently, updates are scheduled to drop at least
@@ -55,9 +49,22 @@ This mod is currently only in development for 1.21.1 but will be updated for fut
 
 🖥️ Installation
 ============
-_This mod currently only supports NeoForge._
+**Required:**  
+Download and Install the needed [NeoForge](https://neoforged.net) version  
+_(Minecraft 1.21.1 = NeoForge 1.21.1)_
 
-Download and Install the needed [NeoForge](https://neoforged.net) version 
+**Recommended to use with Fredo's Vanilla Items:**  
+Overflowing Bars  
+JEI/REI/EMI
 
-(Minecraft 1.21.1 = NeoForge 1.21.1)
 
+📅 Future Mods
+============
+
+Fredo's Armor Expansion
+
+Fredo's Tool Expansion
+
+Fredo's Weapon Expansion
+
+Fredo's Resource Trees
