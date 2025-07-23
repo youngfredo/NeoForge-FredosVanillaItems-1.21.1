@@ -22,7 +22,7 @@ public class ModArmorMaterials {
     public static final Holder<ArmorMaterial> ENDERITE_ARMOR_MATERIAL = register("enderite",
             Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
                 attribute.put(ArmorItem.Type.BOOTS, 5);
-                attribute.put(ArmorItem.Type.LEGGINGS, 9);
+                attribute.put(ArmorItem.Type.LEGGINGS, 8);
                 attribute.put(ArmorItem.Type.CHESTPLATE, 12);
                 attribute.put(ArmorItem.Type.HELMET, 5);
                 attribute.put(ArmorItem.Type.BODY, 16);
