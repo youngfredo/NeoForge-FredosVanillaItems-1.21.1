@@ -61,14 +61,20 @@ public class FredosVanillaItems {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.RUBY);
             event.accept(ModItems.ENDERITE_SHARD);
             event.accept(ModItems.ENDERITE);
             event.accept(ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE);
+
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.RUBY_ORE);
+            event.accept(ModBlocks.DEEPSLATE_RUBY_ORE);
+            event.accept(ModBlocks.RUBY_BLOCK);
             event.accept(ModBlocks.ENDERITE_ORE);
             event.accept(ModBlocks.ENDERITE_BLOCK);
+
         }
 
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
@@ -76,6 +82,11 @@ public class FredosVanillaItems {
             event.accept(ModItems.EMERALD_PICKAXE);
             event.accept(ModItems.EMERALD_AXE);
             event.accept(ModItems.EMERALD_HOE);
+
+            event.accept(ModItems.RUBY_SHOVEL);
+            event.accept(ModItems.RUBY_PICKAXE);
+            event.accept(ModItems.RUBY_AXE);
+            event.accept(ModItems.RUBY_HOE);
 
             event.accept(ModItems.ENDERITE_SHOVEL);
             event.accept(ModItems.ENDERITE_PICKAXE);
@@ -87,8 +98,10 @@ public class FredosVanillaItems {
 
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.EMERALD_SWORD);
+            event.accept(ModItems.RUBY_SWORD);
             event.accept(ModItems.ENDERITE_SWORD);
             event.accept(ModItems.EMERALD_AXE);
+            event.accept(ModItems.RUBY_AXE);
             event.accept(ModItems.ENDERITE_AXE);
 
 
@@ -96,6 +109,11 @@ public class FredosVanillaItems {
             event.accept(ModItems.EMERALD_CHESTPLATE);
             event.accept(ModItems.EMERALD_LEGGINGS);
             event.accept(ModItems.EMERALD_BOOTS);
+
+            event.accept(ModItems.RUBY_HELMET);
+            event.accept(ModItems.RUBY_CHESTPLATE);
+            event.accept(ModItems.RUBY_LEGGINGS);
+            event.accept(ModItems.RUBY_BOOTS);
 
             event.accept(ModItems.ENDERITE_HELMET);
             event.accept(ModItems.ENDERITE_CHESTPLATE);

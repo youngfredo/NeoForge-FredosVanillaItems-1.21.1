@@ -6,14 +6,12 @@
 ![Static Badge](https://img.shields.io/badge/REQUIRED-grey?style=for-the-badge&label=SERVER%20SIDE%3A&labelColor=yellow)
 ![Static Badge](https://img.shields.io/badge/REQUIRED-grey?style=for-the-badge&label=CLIENT%20SIDE%3A&labelColor=yellow)
 
-
-
-
 ## This Mod adds some Vanilla-friendly Ores and Equipment:
 ### Currently implemented:
 
 Enderite (Armor, Tools, Ore etc.) as of 0.1.0  
 Emerald (Armor, Tools) as of 0.2.0
+Ruby (Armor, Tools, Ore etc.) as of 0.3.0
 
 ### Coming Soon:
 

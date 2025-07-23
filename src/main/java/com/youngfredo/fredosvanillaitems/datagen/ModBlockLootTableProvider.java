@@ -25,10 +25,16 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
         dropSelf(ModBlocks.ENDERITE_BLOCK.get());
+        dropSelf(ModBlocks.RUBY_BLOCK.get());
 
         add(ModBlocks.ENDERITE_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.ENDERITE_ORE.get(), ModItems.ENDERITE_SHARD.get(),1,2));
 
+        add(ModBlocks.RUBY_ORE.get(),
+                block -> createOreDrop(ModBlocks.RUBY_ORE.get(), ModItems.RUBY.get()));
+
+        add(ModBlocks.DEEPSLATE_RUBY_ORE.get(),
+                block -> createOreDrop(ModBlocks.DEEPSLATE_RUBY_ORE.get(), ModItems.RUBY.get()));
 
     }
 

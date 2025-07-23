@@ -12,8 +12,8 @@ public class ModTags {
         public static final TagKey<Block> INCORRECT_FOR_ENDERITE_TOOL = createTag("incorrect_for_enderite_tool");
         public static final TagKey<Block> NEEDS_EMERALD_TOOL = createTag("needs_emerald_tool");
         public static final TagKey<Block> INCORRECT_FOR_EMERALD_TOOL = createTag("incorrect_for_emerald_tool");
-        //public static final TagKey<Block> NEEDS_RUBY_TOOL = createTag("needs_ruby_tool");
-        //public static final TagKey<Block> INCORRECT_FOR_RUBY_TOOL = createTag("incorrect_for_ruby_tool");
+        public static final TagKey<Block> NEEDS_RUBY_TOOL = createTag("needs_ruby_tool");
+        public static final TagKey<Block> INCORRECT_FOR_RUBY_TOOL = createTag("incorrect_for_ruby_tool");
         //public static final TagKey<Block> NEEDS_COPPER_TOOL = createTag("needs_copper_tool");
         //public static final TagKey<Block> INCORRECT_FOR_COPPER_TOOL = createTag("incorrect_for_copper_tool");
 

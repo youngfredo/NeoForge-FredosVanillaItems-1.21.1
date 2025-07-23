@@ -1,3 +1,6 @@
-// 1.21.1	2025-07-20T12:23:59.6593907	Loot Tables
+// 1.21.1	2025-07-23T12:49:13.1805001	Loot Tables
+8c1d481969e46b6359c905c4b31ea1d5f0a935a7 data/fredosvanillaitems/loot_table/blocks/deepslate_ruby_ore.json
 286fdb4a734f09a95816c9e433fccfd590eb76cf data/fredosvanillaitems/loot_table/blocks/enderite_block.json
 58d644f8189bae6b6411914f10ef5b497c798ca8 data/fredosvanillaitems/loot_table/blocks/enderite_ore.json
+9adc63f4d1f94fba1a38adfde042d3b800a141ed data/fredosvanillaitems/loot_table/blocks/ruby_block.json
+f92c898cb39c7e20241f8b60fe02ce0455a7ae12 data/fredosvanillaitems/loot_table/blocks/ruby_ore.json

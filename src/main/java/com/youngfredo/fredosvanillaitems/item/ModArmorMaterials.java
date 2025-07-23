@@ -47,6 +47,20 @@ public class ModArmorMaterials {
             0.0f,
             () -> Items.EMERALD);
 
+    public static final Holder<ArmorMaterial> RUBY_ARMOR_MATERIAL = register("ruby",
+            Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
+                attribute.put(ArmorItem.Type.BOOTS, 2);
+                attribute.put(ArmorItem.Type.LEGGINGS, 6);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 7);
+                attribute.put(ArmorItem.Type.HELMET, 3);
+                attribute.put(ArmorItem.Type.BODY, 9);
+            }),
+            SoundEvents.ARMOR_EQUIP_DIAMOND,
+            18,
+            0.0f,
+            0.0f,
+            () -> ModItems.RUBY.get());
+
 
     private static Holder<ArmorMaterial> register(
             String name, EnumMap<ArmorItem.Type, Integer> typeProtection, Holder<SoundEvent> equipSound,

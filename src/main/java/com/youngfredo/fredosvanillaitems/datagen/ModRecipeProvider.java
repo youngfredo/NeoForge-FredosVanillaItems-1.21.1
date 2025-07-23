@@ -118,5 +118,84 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', Items.EMERALD)
                 .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.RUBY_SWORD.get())
+                .pattern(" S ")
+                .pattern(" S ")
+                .pattern(" # ")
+                .define('S', ModItems.RUBY.get())
+                .define('#', Items.STICK)
+                .unlockedBy("has_ruby", has(ModItems.RUBY.get())).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.RUBY_PICKAXE.get())
+                .pattern("SSS")
+                .pattern(" # ")
+                .pattern(" # ")
+                .define('S', ModItems.RUBY.get())
+                .define('#', Items.STICK)
+                .unlockedBy("has_ruby", has(ModItems.RUBY.get())).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.RUBY_AXE.get())
+                .pattern("SS ")
+                .pattern("S# ")
+                .pattern(" # ")
+                .define('S', ModItems.RUBY.get())
+                .define('#', Items.STICK)
+                .unlockedBy("has_ruby", has(ModItems.RUBY.get())).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.RUBY_SHOVEL.get())
+                .pattern(" S ")
+                .pattern(" # ")
+                .pattern(" # ")
+                .define('S', ModItems.RUBY.get())
+                .define('#', Items.STICK)
+                .unlockedBy("has_ruby", has(ModItems.RUBY.get())).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.RUBY_HOE.get())
+                .pattern("SS ")
+                .pattern(" # ")
+                .pattern(" # ")
+                .define('S', ModItems.RUBY.get())
+                .define('#', Items.STICK)
+                .unlockedBy("has_ruby", has(ModItems.RUBY.get())).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.RUBY_HELMET.get())
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("   ")
+                .define('S', ModItems.RUBY.get())
+                .unlockedBy("has_ruby", has(ModItems.RUBY.get())).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.RUBY_CHESTPLATE.get())
+                .pattern("S S")
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S', ModItems.RUBY.get())
+                .unlockedBy("has_ruby", has(ModItems.RUBY.get())).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.RUBY_LEGGINGS.get())
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("S S")
+                .define('S', ModItems.RUBY.get())
+                .unlockedBy("has_ruby", has(ModItems.RUBY.get())).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.RUBY_BOOTS.get())
+                .pattern("S S")
+                .pattern("S S")
+                .pattern("   ")
+                .define('S', ModItems.RUBY.get())
+                .unlockedBy("has_ruby", has(ModItems.RUBY.get())).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RUBY_BLOCK.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModItems.RUBY.get())
+                .unlockedBy("has_ruby", has(ModItems.RUBY)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RUBY.get(), 9)
+                .requires(ModBlocks.RUBY_BLOCK)
+                .unlockedBy("has_ruby_block", has(ModBlocks.RUBY_BLOCK))
+                .save(recipeOutput, "fredosvanillaitems:ruby_from_ruby_block");
     }
 }

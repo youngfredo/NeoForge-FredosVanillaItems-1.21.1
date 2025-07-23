@@ -41,6 +41,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ENDERITE_SHARD.get());
         basicItem(ModItems.ENDERITE.get());
         basicItem(ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE.get());
+        basicItem(ModItems.RUBY.get());
 
         handheldItem(ModItems.ENDERITE_SWORD);
         handheldItem(ModItems.ENDERITE_PICKAXE);
@@ -52,6 +53,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.EMERALD_AXE);
         handheldItem(ModItems.EMERALD_SHOVEL);
         handheldItem(ModItems.EMERALD_HOE);
+        handheldItem(ModItems.RUBY_SWORD);
+        handheldItem(ModItems.RUBY_PICKAXE);
+        handheldItem(ModItems.RUBY_AXE);
+        handheldItem(ModItems.RUBY_SHOVEL);
+        handheldItem(ModItems.RUBY_HOE);
 
 
         trimmedArmorItem(ModItems.ENDERITE_HELMET);
@@ -62,6 +68,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.EMERALD_CHESTPLATE);
         trimmedArmorItem(ModItems.EMERALD_LEGGINGS);
         trimmedArmorItem(ModItems.EMERALD_BOOTS);
+        trimmedArmorItem(ModItems.RUBY_HELMET);
+        trimmedArmorItem(ModItems.RUBY_CHESTPLATE);
+        trimmedArmorItem(ModItems.RUBY_LEGGINGS);
+        trimmedArmorItem(ModItems.RUBY_BOOTS);
     }
 
     // Shoutout to El_Redstoniano for making this

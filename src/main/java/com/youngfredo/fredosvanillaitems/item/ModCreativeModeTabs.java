@@ -34,9 +34,40 @@ public class ModCreativeModeTabs {
 
                     }).build());
 
+    public static final Supplier<CreativeModeTab> RUBY_ITEMS_TAB = CREATIVE_MODE_TAB.register("ruby_items_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RUBY.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FredosVanillaItems.MOD_ID, "emerald_items_tab"))
+                    .title(Component.translatable("creativetab.fredosvanillaitems.ruby_items"))
+                    .displayItems((parameters, output) -> {
+                        output.accept(ModItems.RUBY_SWORD);
+                        output.accept(ModItems.RUBY_PICKAXE);
+                        output.accept(ModItems.RUBY_AXE);
+                        output.accept(ModItems.RUBY_SHOVEL);
+                        output.accept(ModItems.RUBY_HOE);
+
+                        output.accept(ModItems.RUBY_HELMET);
+                        output.accept(ModItems.RUBY_CHESTPLATE);
+                        output.accept(ModItems.RUBY_LEGGINGS);
+                        output.accept(ModItems.RUBY_BOOTS);
+
+                        output.accept(ModItems.RUBY);
+
+
+                    }).build());
+    public static final Supplier<CreativeModeTab> RUBY_BLOCK_TAB = CREATIVE_MODE_TAB.register("ruby_blocks_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.RUBY_BLOCK.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FredosVanillaItems.MOD_ID, "ruby_items_tab"))
+                    .title(Component.translatable("creativetab.fredosvanillaitems.ruby_blocks"))
+                    .displayItems((parameters, output) -> {
+                        output.accept(ModBlocks.RUBY_ORE);
+                        output.accept(ModBlocks.DEEPSLATE_RUBY_ORE);
+                        output.accept(ModBlocks.RUBY_BLOCK);
+
+                    }).build());
+
     public static final Supplier<CreativeModeTab> ENDERITE_ITEMS_TAB = CREATIVE_MODE_TAB.register("enderite_items_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ENDERITE.get()))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FredosVanillaItems.MOD_ID, "emerald_items_tab"))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FredosVanillaItems.MOD_ID, "ruby_blocks_tab"))
                     .title(Component.translatable("creativetab.fredosvanillaitems.enderite_items"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.ENDERITE_SWORD);

@@ -1,6 +1,9 @@
 {
   "values": [
     "fredosvanillaitems:enderite_block",
-    "fredosvanillaitems:enderite_ore"
+    "fredosvanillaitems:enderite_ore",
+    "fredosvanillaitems:ruby_block",
+    "fredosvanillaitems:ruby_ore",
+    "fredosvanillaitems:deepslate_ruby_ore"
   ]
 }
