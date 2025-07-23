@@ -10,18 +10,17 @@
 ### Currently implemented:
 
 Enderite (Armor, Tools, Ore etc.) as of 0.1.0  
-Emerald (Armor, Tools) as of 0.2.0
+Emerald (Armor, Tools) as of 0.2.0  
 Ruby (Armor, Tools, Ore etc.) as of 0.3.0
 
 ### Coming Soon:
 
-Ruby (Ore, Armor, Tools)  
-Copper (Armor, Tools)  
+Copper Item Backport (Armor, Tools)  
+Food
 Advancements  
 Custom Sounds  
 Updated Textures  
-Custom Armor Trims  
-Food
+Custom Armor Trims
 Horse Armors  
 Miscellaneous Recipes
 
