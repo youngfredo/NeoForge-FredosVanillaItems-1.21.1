@@ -50,6 +50,16 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.RUBY_SHOVEL.get());
         tag(ItemTags.HOES)
                 .add(ModItems.RUBY_HOE.get());
+        tag(ItemTags.SWORDS)
+                .add(ModItems.COPPER_SWORD.get());
+        tag(ItemTags.PICKAXES)
+                .add(ModItems.COPPER_PICKAXE.get());
+        tag(ItemTags.AXES)
+                .add(ModItems.COPPER_AXE.get());
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.COPPER_SHOVEL.get());
+        tag(ItemTags.HOES)
+                .add(ModItems.COPPER_HOE.get());
 
         this.tag(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.ENDERITE_HELMET.get())
@@ -63,7 +73,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.RUBY_HELMET.get())
                 .add(ModItems.RUBY_CHESTPLATE.get())
                 .add(ModItems.RUBY_LEGGINGS.get())
-                .add(ModItems.RUBY_BOOTS.get());
+                .add(ModItems.RUBY_BOOTS.get())
+                .add(ModItems.COPPER_HELMET.get())
+                .add(ModItems.COPPER_CHESTPLATE.get())
+                .add(ModItems.COPPER_LEGGINGS.get())
+                .add(ModItems.COPPER_BOOTS.get());
 
     }
 }

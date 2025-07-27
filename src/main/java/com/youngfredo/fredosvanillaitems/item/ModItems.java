@@ -36,19 +36,19 @@ public class ModItems {
 
     public static final DeferredItem<SwordItem> ENDERITE_SWORD = ITEMS.register("enderite_sword",
             () -> new SwordItem(ModToolTiers.ENDERITE, new Item.Properties().fireResistant()
-                    .attributes(SwordItem.createAttributes(ModToolTiers.ENDERITE, 5, -2.0f))));
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ENDERITE, 3, -2.4f))));
     public static final DeferredItem<PickaxeItem> ENDERITE_PICKAXE = ITEMS.register("enderite_pickaxe",
             () -> new PickaxeItem(ModToolTiers.ENDERITE, new Item.Properties().fireResistant()
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.ENDERITE, 1.0F, -2.8f))));
     public static final DeferredItem<AxeItem> ENDERITE_AXE = ITEMS.register("enderite_axe",
             () -> new AxeItem(ModToolTiers.ENDERITE, new Item.Properties().fireResistant()
-                    .attributes(AxeItem.createAttributes(ModToolTiers.ENDERITE, 7.0F, -3.0f))));
+                    .attributes(AxeItem.createAttributes(ModToolTiers.ENDERITE, 5.0F, -3.0f))));
     public static final DeferredItem<ShovelItem> ENDERITE_SHOVEL = ITEMS.register("enderite_shovel",
             () -> new ShovelItem(ModToolTiers.ENDERITE, new Item.Properties().fireResistant()
                     .attributes(ShovelItem.createAttributes(ModToolTiers.ENDERITE, 1.5F, -3.0f))));
     public static final DeferredItem<HoeItem> ENDERITE_HOE = ITEMS.register("enderite_hoe",
             () -> new HoeItem(ModToolTiers.ENDERITE, new Item.Properties().fireResistant()
-                    .attributes(HoeItem.createAttributes(ModToolTiers.ENDERITE, -3.0F, 0.0f))));
+                    .attributes(HoeItem.createAttributes(ModToolTiers.ENDERITE, -6.0F, 0.0f))));
 
     public static final DeferredItem<SwordItem> EMERALD_SWORD = ITEMS.register("emerald_sword",
             () -> new SwordItem(ModToolTiers.EMERALD, new Item.Properties()
@@ -58,13 +58,13 @@ public class ModItems {
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.EMERALD, 1.0F, -2.8f))));
     public static final DeferredItem<AxeItem> EMERALD_AXE = ITEMS.register("emerald_axe",
             () -> new AxeItem(ModToolTiers.EMERALD, new Item.Properties()
-                    .attributes(AxeItem.createAttributes(ModToolTiers.EMERALD, 5.0F, -3.0f))));
+                    .attributes(AxeItem.createAttributes(ModToolTiers.EMERALD, 5.5F, -3.1f))));
     public static final DeferredItem<ShovelItem> EMERALD_SHOVEL = ITEMS.register("emerald_shovel",
             () -> new ShovelItem(ModToolTiers.EMERALD, new Item.Properties()
                     .attributes(ShovelItem.createAttributes(ModToolTiers.EMERALD, 1.5F, -3.0f))));
     public static final DeferredItem<HoeItem> EMERALD_HOE = ITEMS.register("emerald_hoe",
             () -> new HoeItem(ModToolTiers.EMERALD, new Item.Properties()
-                    .attributes(HoeItem.createAttributes(ModToolTiers.EMERALD, -3.0F, 0.0f))));
+                    .attributes(HoeItem.createAttributes(ModToolTiers.EMERALD, -2.5F, -1.0f))));
 
     public static final DeferredItem<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword",
             () -> new SwordItem(ModToolTiers.RUBY, new Item.Properties()
@@ -74,13 +74,29 @@ public class ModItems {
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.RUBY, 1.0F, -2.8f))));
     public static final DeferredItem<AxeItem> RUBY_AXE = ITEMS.register("ruby_axe",
             () -> new AxeItem(ModToolTiers.RUBY, new Item.Properties()
-                    .attributes(AxeItem.createAttributes(ModToolTiers.RUBY, 5.0F, -3.0f))));
+                    .attributes(AxeItem.createAttributes(ModToolTiers.RUBY, 5.25F, -3.1f))));
     public static final DeferredItem<ShovelItem> RUBY_SHOVEL = ITEMS.register("ruby_shovel",
             () -> new ShovelItem(ModToolTiers.RUBY, new Item.Properties()
                     .attributes(ShovelItem.createAttributes(ModToolTiers.RUBY, 1.5F, -3.0f))));
     public static final DeferredItem<HoeItem> RUBY_HOE = ITEMS.register("ruby_hoe",
             () -> new HoeItem(ModToolTiers.RUBY, new Item.Properties()
-                    .attributes(HoeItem.createAttributes(ModToolTiers.RUBY, -3.0F, 0.0f))));
+                    .attributes(HoeItem.createAttributes(ModToolTiers.RUBY, -2.75F, -1.0f))));
+
+    public static final DeferredItem<SwordItem> COPPER_SWORD = ITEMS.register("copper_sword",
+            () -> new SwordItem(ModToolTiers.COPPER, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.COPPER, 3, -2.4f))));
+    public static final DeferredItem<PickaxeItem> COPPER_PICKAXE = ITEMS.register("copper_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.COPPER, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.COPPER, 1.0F, -2.8f))));
+    public static final DeferredItem<AxeItem> COPPER_AXE = ITEMS.register("copper_axe",
+            () -> new AxeItem(ModToolTiers.COPPER, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.COPPER, 7.0F, -3.2f))));
+    public static final DeferredItem<ShovelItem> COPPER_SHOVEL = ITEMS.register("copper_shovel",
+            () -> new ShovelItem(ModToolTiers.COPPER, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.COPPER, 1.5F, -3.0f))));
+    public static final DeferredItem<HoeItem> COPPER_HOE = ITEMS.register("copper_hoe",
+            () -> new HoeItem(ModToolTiers.COPPER, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.COPPER, -1.0F, -2.0f))));
 
 
     public static final DeferredItem<ArmorItem> ENDERITE_HELMET = ITEMS.register("enderite_helmet",
@@ -121,6 +137,19 @@ public class ModItems {
     public static final DeferredItem<ArmorItem> RUBY_BOOTS = ITEMS.register("ruby_boots",
             () -> new ArmorItem(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(29))));
+
+    public static final DeferredItem<ArmorItem> COPPER_HELMET = ITEMS.register("copper_helmet",
+            () -> new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(10))));
+    public static final DeferredItem<ArmorItem> COPPER_CHESTPLATE = ITEMS.register("copper_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(10))));
+    public static final DeferredItem<ArmorItem> COPPER_LEGGINGS = ITEMS.register("copper_leggings",
+            () -> new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(10))));
+    public static final DeferredItem<ArmorItem> COPPER_BOOTS = ITEMS.register("copper_boots",
+            () -> new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(10))));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

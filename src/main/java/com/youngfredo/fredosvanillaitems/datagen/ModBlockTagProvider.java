@@ -55,5 +55,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(ModTags.Blocks.INCORRECT_FOR_RUBY_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
                 .remove(ModTags.Blocks.NEEDS_RUBY_TOOL);
+
+        tag(ModTags.Blocks.NEEDS_COPPER_TOOL)
+                .addTag(BlockTags.NEEDS_STONE_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_COPPER_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_STONE_TOOL)
+                .remove(ModTags.Blocks.NEEDS_COPPER_TOOL);
     }
 }

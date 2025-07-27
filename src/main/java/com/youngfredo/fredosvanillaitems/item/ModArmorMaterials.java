@@ -43,7 +43,7 @@ public class ModArmorMaterials {
             }),
             SoundEvents.ARMOR_EQUIP_DIAMOND,
             18,
-            0.0f,
+            0.5f,
             0.0f,
             () -> Items.EMERALD);
 
@@ -57,9 +57,23 @@ public class ModArmorMaterials {
             }),
             SoundEvents.ARMOR_EQUIP_DIAMOND,
             18,
-            0.0f,
+            1.0f,
             0.0f,
             () -> ModItems.RUBY.get());
+
+    public static final Holder<ArmorMaterial> COPPER_ARMOR_MATERIAL = register("copper",
+            Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
+                attribute.put(ArmorItem.Type.BOOTS, 1);
+                attribute.put(ArmorItem.Type.LEGGINGS, 3);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 4);
+                attribute.put(ArmorItem.Type.HELMET, 2);
+                attribute.put(ArmorItem.Type.BODY, 4);
+            }),
+            SoundEvents.ARMOR_EQUIP_IRON,
+            7,
+            0.0f,
+            0.0f,
+            () -> Items.COPPER_INGOT);
 
 
     private static Holder<ArmorMaterial> register(

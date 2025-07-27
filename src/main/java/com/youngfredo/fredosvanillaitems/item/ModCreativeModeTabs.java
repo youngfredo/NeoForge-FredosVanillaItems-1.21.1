@@ -17,8 +17,26 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FredosVanillaItems.MOD_ID);
 
+    public static final Supplier<CreativeModeTab> COPPER_ITEMS_TAB = CREATIVE_MODE_TAB.register("copper_items_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Items.COPPER_INGOT))
+                    .title(Component.translatable("creativetab.fredosvanillaitems.copper_items"))
+                    .displayItems((parameters, output) -> {
+                        output.accept(ModItems.COPPER_SWORD);
+                        output.accept(ModItems.COPPER_PICKAXE);
+                        output.accept(ModItems.COPPER_AXE);
+                        output.accept(ModItems.COPPER_SHOVEL);
+                        output.accept(ModItems.COPPER_HOE);
+
+                        output.accept(ModItems.COPPER_HELMET);
+                        output.accept(ModItems.COPPER_CHESTPLATE);
+                        output.accept(ModItems.COPPER_LEGGINGS);
+                        output.accept(ModItems.COPPER_BOOTS);
+
+                    }).build());
+
     public static final Supplier<CreativeModeTab> EMERALD_ITEMS_TAB = CREATIVE_MODE_TAB.register("emerald_items_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(Items.EMERALD))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FredosVanillaItems.MOD_ID, "copper_items_tab"))
                     .title(Component.translatable("creativetab.fredosvanillaitems.emerald_items"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.EMERALD_SWORD);

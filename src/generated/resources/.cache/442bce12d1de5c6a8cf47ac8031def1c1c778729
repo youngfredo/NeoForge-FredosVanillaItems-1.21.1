@@ -1,7 +1,9 @@
-// 1.21.1	2025-07-23T12:49:13.1714922	Tags for minecraft:block mod id fredosvanillaitems
+// 1.21.1	2025-07-27T13:54:54.1574265	Tags for minecraft:block mod id fredosvanillaitems
+a82798ea882c360c7c9cf6b52b52a8509e6f9028 data/fredosvanillaitems/tags/block/incorrect_for_copper_tool.json
 bd123f03dbd95613a6bbd93070d769c44fb5787b data/fredosvanillaitems/tags/block/incorrect_for_emerald_tool.json
 edb34417be98be5ce72f3d8b7cd00bd59dd6dd94 data/fredosvanillaitems/tags/block/incorrect_for_enderite_tool.json
 18744c75167f137c8b3e038e63afd0b2a4b8f5a1 data/fredosvanillaitems/tags/block/incorrect_for_ruby_tool.json
+781d959bb6bbea7b36ae6b2d4a71ced43fd662b9 data/fredosvanillaitems/tags/block/needs_copper_tool.json
 32b13946c4cd1f944b029659ccce5fcb2adad4ff data/fredosvanillaitems/tags/block/needs_emerald_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data/fredosvanillaitems/tags/block/needs_enderite_tool.json
 32b13946c4cd1f944b029659ccce5fcb2adad4ff data/fredosvanillaitems/tags/block/needs_ruby_tool.json

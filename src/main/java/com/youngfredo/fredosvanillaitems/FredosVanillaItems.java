@@ -78,6 +78,11 @@ public class FredosVanillaItems {
         }
 
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.COPPER_SHOVEL);
+            event.accept(ModItems.COPPER_PICKAXE);
+            event.accept(ModItems.COPPER_AXE);
+            event.accept(ModItems.COPPER_HOE);
+
             event.accept(ModItems.EMERALD_SHOVEL);
             event.accept(ModItems.EMERALD_PICKAXE);
             event.accept(ModItems.EMERALD_AXE);
@@ -97,13 +102,20 @@ public class FredosVanillaItems {
         }
 
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.COPPER_SWORD);
             event.accept(ModItems.EMERALD_SWORD);
             event.accept(ModItems.RUBY_SWORD);
             event.accept(ModItems.ENDERITE_SWORD);
+            event.accept(ModItems.COPPER_AXE);
             event.accept(ModItems.EMERALD_AXE);
             event.accept(ModItems.RUBY_AXE);
             event.accept(ModItems.ENDERITE_AXE);
 
+
+            event.accept(ModItems.COPPER_HELMET);
+            event.accept(ModItems.COPPER_CHESTPLATE);
+            event.accept(ModItems.COPPER_LEGGINGS);
+            event.accept(ModItems.COPPER_BOOTS);
 
             event.accept(ModItems.EMERALD_HELMET);
             event.accept(ModItems.EMERALD_CHESTPLATE);

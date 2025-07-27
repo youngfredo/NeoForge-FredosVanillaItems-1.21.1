@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "SSS",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "fredosvanillaitems:copper_pickaxe"
+  }
+}

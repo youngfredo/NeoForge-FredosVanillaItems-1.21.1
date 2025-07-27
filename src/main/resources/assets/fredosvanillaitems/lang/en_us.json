@@ -19,6 +19,11 @@
  "item.fredosvanillaitems.ruby_axe": "Ruby Axe",
  "item.fredosvanillaitems.ruby_shovel": "Ruby Shovel",
  "item.fredosvanillaitems.ruby_hoe": "Ruby Hoe",
+ "item.fredosvanillaitems.copper_sword": "Copper Sword",
+ "item.fredosvanillaitems.copper_pickaxe": "Copper Pickaxe",
+ "item.fredosvanillaitems.copper_axe": "Copper Axe",
+ "item.fredosvanillaitems.copper_shovel": "Copper Shovel",
+ "item.fredosvanillaitems.copper_hoe": "Copper Hoe",
 
  "item.fredosvanillaitems.enderite_helmet": "Enderite Helmet",
  "item.fredosvanillaitems.enderite_chestplate": "Enderite Chestplate",
@@ -32,6 +37,10 @@
  "item.fredosvanillaitems.ruby_chestplate": "Ruby Chestplate",
  "item.fredosvanillaitems.ruby_leggings": "Ruby Leggings",
  "item.fredosvanillaitems.ruby_boots": "Ruby Boots",
+ "item.fredosvanillaitems.copper_helmet": "Copper Helmet",
+ "item.fredosvanillaitems.copper_chestplate": "Copper Chestplate",
+ "item.fredosvanillaitems.copper_leggings": "Copper Leggings",
+ "item.fredosvanillaitems.copper_boots": "Copper Boots",
 
  "block.fredosvanillaitems.enderite_ore": "Enderite Ore",
  "block.fredosvanillaitems.enderite_block": "Block of Enderite",
@@ -39,6 +48,7 @@
  "block.fredosvanillaitems.deepslate_ruby_ore": "Deepslate Ruby Ore",
  "block.fredosvanillaitems.ruby_block": "Block of Ruby",
 
+ "creativetab.fredosvanillaitems.copper_items": "Copper Items",
  "creativetab.fredosvanillaitems.emerald_items": "Emerald Items",
  "creativetab.fredosvanillaitems.ruby_items": "Ruby Items",
  "creativetab.fredosvanillaitems.ruby_blocks": "Ruby Blocks",

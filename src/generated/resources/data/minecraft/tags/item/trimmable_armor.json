@@ -11,6 +11,10 @@
     "fredosvanillaitems:ruby_helmet",
     "fredosvanillaitems:ruby_chestplate",
     "fredosvanillaitems:ruby_leggings",
-    "fredosvanillaitems:ruby_boots"
+    "fredosvanillaitems:ruby_boots",
+    "fredosvanillaitems:copper_helmet",
+    "fredosvanillaitems:copper_chestplate",
+    "fredosvanillaitems:copper_leggings",
+    "fredosvanillaitems:copper_boots"
   ]
 }

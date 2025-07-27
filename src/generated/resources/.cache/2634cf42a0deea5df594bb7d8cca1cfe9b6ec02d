@@ -1,7 +1,7 @@
-// 1.21.1	2025-07-23T12:49:13.1835031	Tags for minecraft:item mod id fredosvanillaitems
-dad0875d6a75cd97cc721712c0c748017ae9e2b4 data/minecraft/tags/item/axes.json
-008ac4b09943154d508c46f5467edb2d1a17601f data/minecraft/tags/item/hoes.json
-80311f91fff601f0bfe29ea31c7a8f9496057485 data/minecraft/tags/item/pickaxes.json
-f1d800b95c6071ab5f8d1408458d75885818e27a data/minecraft/tags/item/shovels.json
-ff353a8461cfdef66313cef6572e9b535f2a724a data/minecraft/tags/item/swords.json
-8e41db60dd32bb9a8e3622041673293c5c0ea8d8 data/minecraft/tags/item/trimmable_armor.json
+// 1.21.1	2025-07-27T14:49:42.1835252	Tags for minecraft:item mod id fredosvanillaitems
+53d6c1f38fb5ae9953916e25872610113768bea5 data/minecraft/tags/item/axes.json
+ddef35172035880f25dbd6c27ac7d4ab7d6f57f7 data/minecraft/tags/item/hoes.json
+9fbc94bf4c6f7afaf001a971f8ab8a0f959e8ff6 data/minecraft/tags/item/pickaxes.json
+ca764df227030d08d2d7a6c99425b0acfb93fcbf data/minecraft/tags/item/shovels.json
+8dc172759fa17511cc29e5443f4439dabf6a6e2f data/minecraft/tags/item/swords.json
+0c16ba2622eb4c80088bbd293af861b2ca3341b2 data/minecraft/tags/item/trimmable_armor.json

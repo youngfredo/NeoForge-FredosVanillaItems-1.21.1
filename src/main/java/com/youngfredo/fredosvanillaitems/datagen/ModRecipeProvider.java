@@ -197,5 +197,73 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlocks.RUBY_BLOCK)
                 .unlockedBy("has_ruby_block", has(ModBlocks.RUBY_BLOCK))
                 .save(recipeOutput, "fredosvanillaitems:ruby_from_ruby_block");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.COPPER_SWORD.get())
+                .pattern(" S ")
+                .pattern(" S ")
+                .pattern(" # ")
+                .define('S', Items.COPPER_INGOT)
+                .define('#', Items.STICK)
+                .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.COPPER_PICKAXE.get())
+                .pattern("SSS")
+                .pattern(" # ")
+                .pattern(" # ")
+                .define('S', Items.COPPER_INGOT)
+                .define('#', Items.STICK)
+                .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.COPPER_AXE.get())
+                .pattern("SS ")
+                .pattern("S# ")
+                .pattern(" # ")
+                .define('S', Items.COPPER_INGOT)
+                .define('#', Items.STICK)
+                .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.COPPER_SHOVEL.get())
+                .pattern(" S ")
+                .pattern(" # ")
+                .pattern(" # ")
+                .define('S', Items.COPPER_INGOT)
+                .define('#', Items.STICK)
+                .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.COPPER_HOE.get())
+                .pattern("SS ")
+                .pattern(" # ")
+                .pattern(" # ")
+                .define('S', Items.COPPER_INGOT)
+                .define('#', Items.STICK)
+                .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.COPPER_HELMET.get())
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("   ")
+                .define('S', Items.COPPER_INGOT)
+                .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.COPPER_CHESTPLATE.get())
+                .pattern("S S")
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S', Items.COPPER_INGOT)
+                .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.COPPER_LEGGINGS.get())
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("S S")
+                .define('S', Items.COPPER_INGOT)
+                .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.COPPER_BOOTS.get())
+                .pattern("S S")
+                .pattern("S S")
+                .pattern("   ")
+                .define('S', Items.COPPER_INGOT)
+                .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
     }
 }

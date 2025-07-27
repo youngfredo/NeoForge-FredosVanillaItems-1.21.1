@@ -58,6 +58,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.RUBY_AXE);
         handheldItem(ModItems.RUBY_SHOVEL);
         handheldItem(ModItems.RUBY_HOE);
+        handheldItem(ModItems.COPPER_SWORD);
+        handheldItem(ModItems.COPPER_PICKAXE);
+        handheldItem(ModItems.COPPER_AXE);
+        handheldItem(ModItems.COPPER_SHOVEL);
+        handheldItem(ModItems.COPPER_HOE);
 
 
         trimmedArmorItem(ModItems.ENDERITE_HELMET);
@@ -72,6 +77,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.RUBY_CHESTPLATE);
         trimmedArmorItem(ModItems.RUBY_LEGGINGS);
         trimmedArmorItem(ModItems.RUBY_BOOTS);
+        trimmedArmorItem(ModItems.COPPER_HELMET);
+        trimmedArmorItem(ModItems.COPPER_CHESTPLATE);
+        trimmedArmorItem(ModItems.COPPER_LEGGINGS);
+        trimmedArmorItem(ModItems.COPPER_BOOTS);
     }
 
     // Shoutout to El_Redstoniano for making this
