@@ -9,20 +9,20 @@
 ## This Mod adds some Vanilla-friendly Ores and Equipment:
 ### Currently implemented:
 
-Enderite (Armor, Tools, Ore etc.) as of 0.1.0  
-Emerald (Armor, Tools) as of 0.2.0  
-Ruby (Armor, Tools, Ore etc.) as of 0.3.0
+- Enderite (Armor, Tools, Ore etc.) as of 0.1.0  
+- Emerald (Armor, Tools) as of 0.2.0  
+- Ruby (Armor, Tools, Ore etc.) as of 0.3.0
+- Copper Items Backport (Armor, Tools) as of 0.4.0
 
 ### Coming Soon:
+ 
+- Food & Miscellaneous Recipes  
+- Custom Sounds & Updated Textures  
+- Fredo's Armor Trim & Trim Materials (Ruby, Enderite)  
+- Horse Armors  
+- Advancements  
+- Translation for more languages
 
-Copper Item Backport (Armor, Tools)  
-Food
-Advancements  
-Custom Sounds  
-Updated Textures  
-Custom Armor Trims
-Horse Armors  
-Miscellaneous Recipes
 
 ### Update Schedule:
 Currently, updates are scheduled to drop at least
@@ -37,7 +37,7 @@ The latest release of this Mod can always be found on
 
 This mod is currently only in development for 1.21.1 but will be updated for future versions once all (currently) planned features have been implemented.
 
-- Minecraft 1.21.1 (latest): [Modrinth Download](https://modrinth.com/mod/fredos-vanilla-items/version/0.3.0) or [Curseforge Download](https://www.curseforge.com/minecraft/mc-mods/fredos-ores-armors-and-tools-neoforge/files/6802557)
+- Minecraft 1.21.1 (latest): [Modrinth Download](https://modrinth.com/mod/fredos-vanilla-items/version/0.4.0) or [Curseforge Download](https://www.curseforge.com/minecraft/mc-mods/fredos-ores-armors-and-tools-neoforge/files/6817410)  
 - Minecraft 1.21.3 (coming soon)
 - Minecraft 1.21.4 (coming soon)
 - Minecraft 1.21.5 (coming soon)
