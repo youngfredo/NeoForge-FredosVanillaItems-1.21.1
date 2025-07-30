@@ -70,7 +70,7 @@ public class ModArmorMaterials {
                 attribute.put(ArmorItem.Type.BODY, 4);
             }),
             SoundEvents.ARMOR_EQUIP_IRON,
-            7,
+            8,
             0.0f,
             0.0f,
             () -> Items.COPPER_INGOT);

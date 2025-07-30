@@ -14,5 +14,5 @@ public class ModToolTiers {
     public static final Tier RUBY = new SimpleTier(ModTags.Blocks.INCORRECT_FOR_RUBY_TOOL,
             1040,7.5f, 2.75f, 18, () -> Ingredient.of(ModItems.RUBY));
     public static final Tier COPPER = new SimpleTier(ModTags.Blocks.INCORRECT_FOR_COPPER_TOOL,
-            190,4f, 1f, 7, () -> Ingredient.of(Items.COPPER_INGOT));
+            190,4.5f, 1f, 13, () -> Ingredient.of(Items.COPPER_INGOT));
 }
