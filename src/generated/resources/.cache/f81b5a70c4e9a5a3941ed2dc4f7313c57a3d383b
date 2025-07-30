@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-27T14:49:42.1725141	Item Models: fredosvanillaitems
+// 1.21.1	2025-07-30T17:09:59.6594689	Item Models: fredosvanillaitems
 580267e563fde6cb5819770c0eba38702748b709 assets/fredosvanillaitems/models/item/copper_axe.json
 656af91836fef96679d3ea839f15cc3e4abeca90 assets/fredosvanillaitems/models/item/copper_boots.json
 3172f6ad876db10562e01e6f6a68fe4b85ac8d07 assets/fredosvanillaitems/models/item/copper_boots_amethyst_trim.json
@@ -48,6 +48,7 @@ a8b23b83a109c20e34906d71d0c9f0957e826df7 assets/fredosvanillaitems/models/item/c
 addc7e017bb52d6379054ffde872587729b8866e assets/fredosvanillaitems/models/item/copper_pickaxe.json
 31f74b187335b029e85bb7aa4d253a562692eecd assets/fredosvanillaitems/models/item/copper_shovel.json
 a5482c35be368ea4ecc74df32fb5035d12438bed assets/fredosvanillaitems/models/item/copper_sword.json
+f313fa0b1232cd298efe33dc6c7ce5990e68288b assets/fredosvanillaitems/models/item/emerald_apple.json
 cb3d79c631f2d48d52956380ed09bef1e3505eb8 assets/fredosvanillaitems/models/item/emerald_axe.json
 50889ef283c5ab3c9d1ff4b74976c1fb99330fd0 assets/fredosvanillaitems/models/item/emerald_boots.json
 8a5fa92835ed4bb09bef3a0e9fa303afc1cbd75f assets/fredosvanillaitems/models/item/emerald_boots_amethyst_trim.json
@@ -97,6 +98,8 @@ e543dc05260d15df71866e63d9c477ae91220202 assets/fredosvanillaitems/models/item/e
 0eeb5f4b895b58ff6b49c7b874c8f25f722490e5 assets/fredosvanillaitems/models/item/emerald_pickaxe.json
 22a53ef1667d8ea808c8b234a65107910bed332a assets/fredosvanillaitems/models/item/emerald_shovel.json
 bddc8a25cca3573df8b9ef13d7e7653f8f5691e2 assets/fredosvanillaitems/models/item/emerald_sword.json
+ff4cb3ebd7b5b3ea086d67238c870fe850ed6271 assets/fredosvanillaitems/models/item/enchanted_emerald_apple.json
+1fb81284a652aa1b5a9229f0331873e259030e06 assets/fredosvanillaitems/models/item/enchanted_ruby_apple.json
 77b67f6eb5103c9ce7d3181191d3c775270361bc assets/fredosvanillaitems/models/item/enderite.json
 bae6e1870c58233be13423107777de2e76e6f445 assets/fredosvanillaitems/models/item/enderite_axe.json
 58b46e91e651c796f8935f84365c5c5752f87ed4 assets/fredosvanillaitems/models/item/enderite_boots.json
@@ -150,6 +153,7 @@ eaf65cb5563bfe8f3bcaaa38a55ff27f0dc3d18a assets/fredosvanillaitems/models/item/e
 6253f764b60854c764a88d7be8432f9000e8d9c9 assets/fredosvanillaitems/models/item/enderite_sword.json
 2555f99e93dd4d63acc8ea1a405de7e86f1e9374 assets/fredosvanillaitems/models/item/enderite_upgrade_smithing_template.json
 aeba0f14f8bbe95b331f527658f62bcab51d7af4 assets/fredosvanillaitems/models/item/ruby.json
+d9350816c000a674b48a9f9bb7ba5cecd130ed17 assets/fredosvanillaitems/models/item/ruby_apple.json
 7c4b456446d4a4de79cc653cab3ff0ca8ca68fa2 assets/fredosvanillaitems/models/item/ruby_axe.json
 3c3bf4596338e9893dceb41bb897d9d75a5413e4 assets/fredosvanillaitems/models/item/ruby_boots.json
 93b671670621fe1341e9fa5af5c62ddff8d58804 assets/fredosvanillaitems/models/item/ruby_boots_amethyst_trim.json

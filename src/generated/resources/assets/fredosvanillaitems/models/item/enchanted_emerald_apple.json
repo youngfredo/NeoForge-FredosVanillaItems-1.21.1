@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fredosvanillaitems:item/enchanted_emerald_apple"
+  }
+}

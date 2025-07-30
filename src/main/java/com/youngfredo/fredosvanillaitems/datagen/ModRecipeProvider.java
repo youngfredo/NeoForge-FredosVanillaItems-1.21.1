@@ -6,8 +6,6 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 
 import java.util.concurrent.CompletableFuture;
@@ -265,5 +263,45 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("   ")
                 .define('S', Items.COPPER_INGOT)
                 .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.EMERALD_APPLE.get())
+                .pattern("SSS")
+                .pattern("SAS")
+                .pattern("SSS")
+                .define('A', Items.APPLE)
+                .define('S', Items.EMERALD)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.ENCHANTED_EMERALD_APPLE.get())
+                .pattern("SSS")
+                .pattern("SAS")
+                .pattern("SSS")
+                .define('A', Items.APPLE)
+                .define('S', Items.EMERALD_BLOCK)
+                .unlockedBy("has_emerald_block", has(Items.EMERALD_BLOCK)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.RUBY_APPLE.get())
+                .pattern("SSS")
+                .pattern("SAS")
+                .pattern("SSS")
+                .define('A', Items.APPLE)
+                .define('S', ModItems.RUBY.get())
+                .unlockedBy("has_ruby", has(ModItems.RUBY.get())).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.ENCHANTED_RUBY_APPLE.get())
+                .pattern("SSS")
+                .pattern("SAS")
+                .pattern("SSS")
+                .define('A', Items.APPLE)
+                .define('S', ModBlocks.RUBY_BLOCK.get())
+                .unlockedBy("has_ruby_block", has(ModBlocks.RUBY_BLOCK.get())).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, Items.ENCHANTED_GOLDEN_APPLE)
+                .pattern("SSS")
+                .pattern("SAS")
+                .pattern("SSS")
+                .define('A', Items.APPLE)
+                .define('S', Items.GOLD_BLOCK)
+                .unlockedBy("has_gold_block", has(Items.GOLD_BLOCK)).save(recipeOutput);
     }
 }

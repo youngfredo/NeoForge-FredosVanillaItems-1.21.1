@@ -77,6 +77,14 @@ public class FredosVanillaItems {
 
         }
 
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.EMERALD_APPLE);
+            event.accept(ModItems.ENCHANTED_EMERALD_APPLE);
+            event.accept(ModItems.RUBY_APPLE);
+            event.accept(ModItems.ENCHANTED_RUBY_APPLE);
+
+        }
+
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.COPPER_SHOVEL);
             event.accept(ModItems.COPPER_PICKAXE);

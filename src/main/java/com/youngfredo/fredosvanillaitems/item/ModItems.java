@@ -1,6 +1,7 @@
 package com.youngfredo.fredosvanillaitems.item;
 
 import com.youngfredo.fredosvanillaitems.FredosVanillaItems;
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
@@ -32,6 +33,17 @@ public class ModItems {
     public static final DeferredItem<Item> RUBY = ITEMS.register("ruby",
             () -> new Item(new Item.Properties()));
 
+
+    public static final DeferredItem<Item> EMERALD_APPLE = ITEMS.register("emerald_apple",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.EMERALD_APPLE)));
+    public static final DeferredItem<Item> ENCHANTED_EMERALD_APPLE = ITEMS.register("enchanted_emerald_apple",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ENCHANTED_EMERALD_APPLE)
+                    .component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.EPIC)));
+    public static final DeferredItem<Item> RUBY_APPLE = ITEMS.register("ruby_apple",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.RUBY_APPLE)));
+    public static final DeferredItem<Item> ENCHANTED_RUBY_APPLE = ITEMS.register("enchanted_ruby_apple",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ENCHANTED_RUBY_APPLE)
+                    .component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.EPIC)));
 
 
     public static final DeferredItem<SwordItem> ENDERITE_SWORD = ITEMS.register("enderite_sword",

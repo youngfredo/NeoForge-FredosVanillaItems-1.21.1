@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "S": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SAS",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fredosvanillaitems:emerald_apple"
+  }
+}

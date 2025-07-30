@@ -50,6 +50,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.EMERALD_LEGGINGS);
                         output.accept(ModItems.EMERALD_BOOTS);
 
+                        output.accept(ModItems.EMERALD_APPLE);
+                        output.accept(ModItems.ENCHANTED_EMERALD_APPLE);
+
                     }).build());
 
     public static final Supplier<CreativeModeTab> RUBY_ITEMS_TAB = CREATIVE_MODE_TAB.register("ruby_items_tab",
@@ -69,6 +72,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RUBY_BOOTS);
 
                         output.accept(ModItems.RUBY);
+
+                        output.accept(ModItems.RUBY_APPLE);
+                        output.accept(ModItems.ENCHANTED_RUBY_APPLE);
 
 
                     }).build());
