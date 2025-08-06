@@ -43,6 +43,7 @@ This mod is currently only in development for 1.21.1 but will be updated for fut
 - Fredo's Vanilla Items for Minecraft 1.21.5 (coming soon)
 - Fredo's Vanilla Items for Minecraft 1.21.6 (coming soon)
 - Fredo's Vanilla Items for Minecraft 1.21.7 (coming soon)
+- Fredo's Vanilla Items for Minecraft 1.21.8 (coming soon)
 
 🖥️ Installation
 ============
@@ -50,7 +51,7 @@ This mod is currently only in development for 1.21.1 but will be updated for fut
 Download and Install the needed [NeoForge](https://neoforged.net) version  
 _(Minecraft 1.21.1 = NeoForge 1.21.1)_
 
-**Recommended to use with Fredo's Vanilla Items:**  
+**Other mods recommended to use with Fredo's Vanilla Items:**  
 Overflowing Bars  
 JEI/REI/EMI
 
