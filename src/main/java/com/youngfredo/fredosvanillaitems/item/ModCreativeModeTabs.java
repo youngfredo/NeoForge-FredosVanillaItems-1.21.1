@@ -32,6 +32,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.COPPER_LEGGINGS);
                         output.accept(ModItems.COPPER_BOOTS);
 
+                        output.accept(ModItems.COPPER_HORSE_ARMOR);
+
                     }).build());
 
     public static final Supplier<CreativeModeTab> EMERALD_ITEMS_TAB = CREATIVE_MODE_TAB.register("emerald_items_tab",
@@ -52,6 +54,9 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.EMERALD_APPLE);
                         output.accept(ModItems.ENCHANTED_EMERALD_APPLE);
+
+                        output.accept(ModItems.EMERALD_HORSE_ARMOR);
+
 
                     }).build());
 
@@ -76,6 +81,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RUBY_APPLE);
                         output.accept(ModItems.ENCHANTED_RUBY_APPLE);
 
+                        output.accept(ModItems.RUBY_HORSE_ARMOR);
 
                     }).build());
     public static final Supplier<CreativeModeTab> RUBY_BLOCK_TAB = CREATIVE_MODE_TAB.register("ruby_blocks_tab",
@@ -109,6 +115,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENDERITE);
                         output.accept(ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE);
 
+                        output.accept(ModItems.ENDERITE_HORSE_ARMOR);
 
                     }).build());
 

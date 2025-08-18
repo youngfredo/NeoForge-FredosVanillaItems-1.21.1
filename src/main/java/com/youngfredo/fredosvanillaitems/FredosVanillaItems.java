@@ -139,6 +139,12 @@ public class FredosVanillaItems {
             event.accept(ModItems.ENDERITE_CHESTPLATE);
             event.accept(ModItems.ENDERITE_LEGGINGS);
             event.accept(ModItems.ENDERITE_BOOTS);
+
+            event.accept(ModItems.COPPER_HORSE_ARMOR);
+            event.accept(ModItems.EMERALD_HORSE_ARMOR);
+            event.accept(ModItems.RUBY_HORSE_ARMOR);
+            event.accept(ModItems.NETHERITE_HORSE_ARMOR);
+            event.accept(ModItems.ENDERITE_HORSE_ARMOR);
         }
     }
 

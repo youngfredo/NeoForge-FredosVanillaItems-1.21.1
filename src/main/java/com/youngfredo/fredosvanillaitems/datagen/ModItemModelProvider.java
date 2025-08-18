@@ -47,6 +47,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.RUBY_APPLE.get());
         basicItem(ModItems.ENCHANTED_RUBY_APPLE.get());
 
+        basicItem(ModItems.COPPER_HORSE_ARMOR.get());
+        basicItem(ModItems.EMERALD_HORSE_ARMOR.get());
+        basicItem(ModItems.RUBY_HORSE_ARMOR.get());
+        basicItem(ModItems.NETHERITE_HORSE_ARMOR.get());
+        basicItem(ModItems.ENDERITE_HORSE_ARMOR.get());
 
         handheldItem(ModItems.ENDERITE_SWORD);
         handheldItem(ModItems.ENDERITE_PICKAXE);
@@ -86,6 +91,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.COPPER_CHESTPLATE);
         trimmedArmorItem(ModItems.COPPER_LEGGINGS);
         trimmedArmorItem(ModItems.COPPER_BOOTS);
+
+
     }
 
     // Shoutout to El_Redstoniano for making this

@@ -47,6 +47,12 @@
  "item.fredosvanillaitems.copper_leggings": "Copper Leggings",
  "item.fredosvanillaitems.copper_boots": "Copper Boots",
 
+ "item.fredosvanillaitems.copper_horse_armor": "Copper Horse Armor",
+ "item.fredosvanillaitems.emerald_horse_armor": "Emerald Horse Armor",
+ "item.fredosvanillaitems.ruby_horse_armor": "Ruby Horse Armor",
+ "item.fredosvanillaitems.netherite_horse_armor": "Netherite Horse Armor",
+ "item.fredosvanillaitems.enderite_horse_armor": "Enderite Horse Armor",
+
  "block.fredosvanillaitems.enderite_ore": "Enderite Ore",
  "block.fredosvanillaitems.enderite_block": "Block of Enderite",
  "block.fredosvanillaitems.ruby_ore": "Ruby Ore",

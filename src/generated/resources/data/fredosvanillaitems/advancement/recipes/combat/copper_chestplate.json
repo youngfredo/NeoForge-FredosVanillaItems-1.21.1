@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "fredosvanillaitems:copper_axe"
+        "recipe": "fredosvanillaitems:copper_chestplate"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "fredosvanillaitems:copper_axe"
+      "fredosvanillaitems:copper_chestplate"
     ]
   }
 }

@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_copper_ingot": {
+    "has_enderite": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:copper_ingot"
+            "items": "fredosvanillaitems:enderite"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "fredosvanillaitems:copper_axe"
+        "recipe": "fredosvanillaitems:enderite_horse_armor"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_copper_ingot"
+      "has_enderite"
     ]
   ],
   "rewards": {
     "recipes": [
-      "fredosvanillaitems:copper_axe"
+      "fredosvanillaitems:enderite_horse_armor"
     ]
   }
 }
