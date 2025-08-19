@@ -41,6 +41,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ENDERITE_SHARD.get());
         basicItem(ModItems.ENDERITE.get());
         basicItem(ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE.get());
+        basicItem(ModItems.YOUNGFREDO_SMITHING_TEMPLATE.get());
         basicItem(ModItems.RUBY.get());
         basicItem(ModItems.EMERALD_APPLE.get());
         basicItem(ModItems.ENCHANTED_EMERALD_APPLE.get());

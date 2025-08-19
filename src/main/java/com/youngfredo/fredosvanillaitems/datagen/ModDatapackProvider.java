@@ -1,6 +1,8 @@
 package com.youngfredo.fredosvanillaitems.datagen;
 
 import com.youngfredo.fredosvanillaitems.FredosVanillaItems;
+import com.youngfredo.fredosvanillaitems.trim.ModTrimMaterials;
+import com.youngfredo.fredosvanillaitems.trim.ModTrimPatterns;
 import com.youngfredo.fredosvanillaitems.worldgen.ModBiomeModifiers;
 import com.youngfredo.fredosvanillaitems.worldgen.ModConfiguredFeatures;
 import com.youngfredo.fredosvanillaitems.worldgen.ModPlacedFeatures;
@@ -16,6 +18,10 @@ import java.util.concurrent.CompletableFuture;
 
 public class ModDatapackProvider extends DatapackBuiltinEntriesProvider {
     public static final RegistrySetBuilder BUILDER = new RegistrySetBuilder()
+            .add(Registries.TRIM_MATERIAL, ModTrimMaterials::bootstrap)
+            .add(Registries.TRIM_PATTERN, ModTrimPatterns::bootstrap)
+
+
             .add(Registries.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap)
             .add(Registries.PLACED_FEATURE, ModPlacedFeatures::bootstrap)
             .add(NeoForgeRegistries.Keys.BIOME_MODIFIERS, ModBiomeModifiers::bootstrap);

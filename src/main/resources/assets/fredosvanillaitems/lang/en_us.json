@@ -2,6 +2,7 @@
  "item.fredosvanillaitems.enderite_shard": "Enderite Shard",
  "item.fredosvanillaitems.enderite": "Enderite Ingot",
  "item.fredosvanillaitems.enderite_upgrade_smithing_template": "Smithing Template",
+ "item.fredosvanillaitems.youngfredo_armor_trim_smithing_template": "Young Fredo's Trim Template",
  "item.fredosvanillaitems.ruby": "Ruby",
 
  "item.fredosvanillaitems.emerald_apple": "Emerald Apple",
@@ -71,5 +72,9 @@
  "tooltip.fredosvanillaitems.enderite_upgrade_smithing_template.tooltipapplies": "§7Applies to:§r",
  "tooltip.fredosvanillaitems.enderite_upgrade_smithing_template.tooltipequipment": " §9Netherite Equipment§r",
  "tooltip.fredosvanillaitems.enderite_upgrade_smithing_template.tooltipingredients": "§7Ingredients:§r",
- "tooltip.fredosvanillaitems.enderite_upgrade_smithing_template.tooltipmaterial": " §9Enderite Ingot§r"
+ "tooltip.fredosvanillaitems.enderite_upgrade_smithing_template.tooltipmaterial": " §9Enderite Ingot§r",
+
+ "trim_pattern.fredosvanillaitems.youngfredo": "Young Fredo's Armor Trim",
+ "trim_material.fredosvanillaitems.ruby": "Ruby Material",
+ "trim_material.fredosvanillaitems.enderite": "Enderite Material"
 }

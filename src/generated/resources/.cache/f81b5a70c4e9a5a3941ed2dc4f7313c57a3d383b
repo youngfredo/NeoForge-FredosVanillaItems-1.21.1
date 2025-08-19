@@ -1,4 +1,4 @@
-// 1.21.1	2025-08-18T11:14:40.6619664	Item Models: fredosvanillaitems
+// 1.21.1	2025-08-20T00:50:12.1280341	Item Models: fredosvanillaitems
 580267e563fde6cb5819770c0eba38702748b709 assets/fredosvanillaitems/models/item/copper_axe.json
 656af91836fef96679d3ea839f15cc3e4abeca90 assets/fredosvanillaitems/models/item/copper_boots.json
 3172f6ad876db10562e01e6f6a68fe4b85ac8d07 assets/fredosvanillaitems/models/item/copper_boots_amethyst_trim.json
@@ -208,3 +208,4 @@ dd17374a359fa1553d2b597fcfe2e2aa840c7117 assets/fredosvanillaitems/models/item/r
 8ea64f31714f01629c2f38848ab58cf99cb6b1b8 assets/fredosvanillaitems/models/item/ruby_pickaxe.json
 a6d45f885046afd1bc0a2ca84b06d63e6e618e44 assets/fredosvanillaitems/models/item/ruby_shovel.json
 22458de5e2ded2952f3be770c8e332e96612697e assets/fredosvanillaitems/models/item/ruby_sword.json
+05c027c9b14588ec8288452ed99337f34332a861 assets/fredosvanillaitems/models/item/youngfredo_armor_trim_smithing_template.json

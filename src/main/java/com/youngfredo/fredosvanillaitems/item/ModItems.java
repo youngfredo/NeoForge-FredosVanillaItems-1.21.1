@@ -3,6 +3,7 @@ package com.youngfredo.fredosvanillaitems.item;
 import com.youngfredo.fredosvanillaitems.FredosVanillaItems;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -30,6 +31,9 @@ public class ModItems {
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
+    public static final DeferredItem<Item> YOUNGFREDO_SMITHING_TEMPLATE = ITEMS.register("youngfredo_armor_trim_smithing_template",
+            () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(FredosVanillaItems.MOD_ID, "youngfredo" )));
+
     public static final DeferredItem<Item> RUBY = ITEMS.register("ruby",
             () -> new Item(new Item.Properties()));
 

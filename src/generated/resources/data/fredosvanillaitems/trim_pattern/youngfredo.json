@@ -1,0 +1,8 @@
+{
+  "asset_id": "fredosvanillaitems:youngfredo",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.fredosvanillaitems.youngfredo"
+  },
+  "template_item": "fredosvanillaitems:youngfredo_armor_trim_smithing_template"
+}

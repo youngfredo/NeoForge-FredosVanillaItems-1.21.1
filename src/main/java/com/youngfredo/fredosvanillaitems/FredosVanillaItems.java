@@ -65,6 +65,7 @@ public class FredosVanillaItems {
             event.accept(ModItems.ENDERITE_SHARD);
             event.accept(ModItems.ENDERITE);
             event.accept(ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE);
+            event.accept(ModItems.YOUNGFREDO_SMITHING_TEMPLATE);
 
         }
 

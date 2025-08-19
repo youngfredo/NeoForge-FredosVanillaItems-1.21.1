@@ -1,10 +1,12 @@
 package com.youngfredo.fredosvanillaitems.datagen;
 
+import com.youngfredo.fredosvanillaitems.FredosVanillaItems;
 import com.youngfredo.fredosvanillaitems.block.ModBlocks;
 import com.youngfredo.fredosvanillaitems.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 
@@ -17,6 +19,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(RecipeOutput recipeOutput) {
+
+        trimSmithing(recipeOutput, ModItems.YOUNGFREDO_SMITHING_TEMPLATE.get(), ResourceLocation.fromNamespaceAndPath(FredosVanillaItems.MOD_ID, "youngfredo"));
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ENDERITE_BLOCK.get())
                 .pattern("BBB")

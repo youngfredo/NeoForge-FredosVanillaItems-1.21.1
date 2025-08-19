@@ -79,5 +79,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.COPPER_LEGGINGS.get())
                 .add(ModItems.COPPER_BOOTS.get());
 
+
+        this.tag(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.RUBY.get())
+                .add(ModItems.ENDERITE.get());
+
+        this.tag(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.YOUNGFREDO_SMITHING_TEMPLATE.get());
     }
 }

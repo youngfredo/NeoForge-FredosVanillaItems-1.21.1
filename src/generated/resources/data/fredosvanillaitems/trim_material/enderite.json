@@ -1,0 +1,9 @@
+{
+  "asset_name": "enderite",
+  "description": {
+    "color": "#2A2042",
+    "translate": "trim_material.fredosvanillaitems.enderite"
+  },
+  "ingredient": "fredosvanillaitems:enderite",
+  "item_model_index": 1.0
+}

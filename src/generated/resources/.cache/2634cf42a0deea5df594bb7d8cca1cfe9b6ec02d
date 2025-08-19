@@ -1,7 +1,9 @@
-// 1.21.1	2025-07-27T14:49:42.1835252	Tags for minecraft:item mod id fredosvanillaitems
+// 1.21.1	2025-08-20T00:50:12.142158	Tags for minecraft:item mod id fredosvanillaitems
 53d6c1f38fb5ae9953916e25872610113768bea5 data/minecraft/tags/item/axes.json
 ddef35172035880f25dbd6c27ac7d4ab7d6f57f7 data/minecraft/tags/item/hoes.json
 9fbc94bf4c6f7afaf001a971f8ab8a0f959e8ff6 data/minecraft/tags/item/pickaxes.json
 ca764df227030d08d2d7a6c99425b0acfb93fcbf data/minecraft/tags/item/shovels.json
 8dc172759fa17511cc29e5443f4439dabf6a6e2f data/minecraft/tags/item/swords.json
 0c16ba2622eb4c80088bbd293af861b2ca3341b2 data/minecraft/tags/item/trimmable_armor.json
+7883bf72360902e80547f9e1ca374cfa999577bb data/minecraft/tags/item/trim_materials.json
+02237778d6474ae7ddc95bf5fecf57f1ce4dfeaf data/minecraft/tags/item/trim_templates.json
