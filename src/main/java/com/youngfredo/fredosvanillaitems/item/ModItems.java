@@ -15,11 +15,11 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(FredosVanillaItems.MOD_ID);
 
     public static final DeferredItem<Item> ENDERITE = ITEMS.register("enderite",
-            () -> new Item(new Item.Properties().rarity(Rarity.EPIC).fireResistant()));
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON).fireResistant()));
     public static final DeferredItem<Item> ENDERITE_SHARD = ITEMS.register("enderite_shard",
-            () -> new Item(new Item.Properties().rarity(Rarity.EPIC).fireResistant()));
+            () -> new Item(new Item.Properties().rarity(Rarity.COMMON).fireResistant()));
     public static final DeferredItem<Item> ENDERITE_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("enderite_upgrade_smithing_template",
-            () -> new Item(new Item.Properties().rarity(Rarity.EPIC)) {
+            () -> new Item(new Item.Properties().rarity(Rarity.RARE)) {
                 @Override
                 public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
                     tooltipComponents.add(Component.translatable("tooltip.fredosvanillaitems.enderite_upgrade_smithing_template.tooltip"));
@@ -41,12 +41,12 @@ public class ModItems {
     public static final DeferredItem<Item> EMERALD_APPLE = ITEMS.register("emerald_apple",
             () -> new Item(new Item.Properties().food(ModFoodProperties.EMERALD_APPLE)));
     public static final DeferredItem<Item> ENCHANTED_EMERALD_APPLE = ITEMS.register("enchanted_emerald_apple",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.ENCHANTED_EMERALD_APPLE)
+            () -> new Item(new Item.Properties().rarity(Rarity.RARE).food(ModFoodProperties.ENCHANTED_EMERALD_APPLE)
                     .component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.EPIC)));
     public static final DeferredItem<Item> RUBY_APPLE = ITEMS.register("ruby_apple",
             () -> new Item(new Item.Properties().food(ModFoodProperties.RUBY_APPLE)));
     public static final DeferredItem<Item> ENCHANTED_RUBY_APPLE = ITEMS.register("enchanted_ruby_apple",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.ENCHANTED_RUBY_APPLE)
+            () -> new Item(new Item.Properties().rarity(Rarity.RARE).food(ModFoodProperties.ENCHANTED_RUBY_APPLE)
                     .component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.EPIC)));
 
 
