@@ -181,7 +181,7 @@ public class ModItems {
                     false, new Item.Properties().stacksTo(1)));
     public static final DeferredItem<Item> ENDERITE_HORSE_ARMOR = ITEMS.register("enderite_horse_armor",
             () -> new AnimalArmorItem(ModArmorMaterials.ENDERITE_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
-                    false, new Item.Properties().stacksTo(1)));
+                    false, new Item.Properties().fireResistant().stacksTo(1)));
 
 
     public static void register(IEventBus eventBus) {
