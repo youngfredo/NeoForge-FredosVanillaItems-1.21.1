@@ -15,9 +15,9 @@
 - Copper Items Backport (Armor, Tools) as of 0.4.0
 - Food & Miscellaneous Recipes (Apples) as of 0.5.0
 - Horse Armors as of 0.6.0
+- Fredo's Armor Trim & Trim Materials (Ruby, Enderite) as of 0.7.0
 ### Coming Soon:
- 
-- Fredo's Armor Trim & Trim Materials (Ruby, Enderite)   
+
 - Advancements  
 - Custom Sounds & Updated Textures
 - Translation for more languages
@@ -36,7 +36,7 @@ The latest release of this Mod can always be found on
 
 This mod is currently only in development for 1.21.1 but will be updated for future versions once all (currently) planned features have been implemented.
 
-- Fredo's Vanilla Items for Minecraft 1.21.1 (latest): [Modrinth Download](https://modrinth.com/mod/fredos-vanilla-items/version/0.6.0) or [Curseforge Download](https://www.curseforge.com/minecraft/mc-mods/fredos-ores-armors-and-tools-neoforge/files/6902012)  
+- Fredo's Vanilla Items for Minecraft 1.21.1 (latest): [Modrinth Download](https://modrinth.com/mod/fredos-vanilla-items/version/0.7.0) or [Curseforge Download](https://www.curseforge.com/minecraft/mc-mods/fredos-ores-armors-and-tools-neoforge/files/6933853)  
 - Fredo's Vanilla Items for Minecraft 1.21.3 (coming soon)
 - Fredo's Vanilla Items for Minecraft 1.21.4 (coming soon)
 - Fredo's Vanilla Items for Minecraft 1.21.5 (coming soon)
