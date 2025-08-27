@@ -363,5 +363,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("S S")
                 .define('S', ModItems.ENDERITE.get())
                 .unlockedBy("has_enderite", has(ModItems.ENDERITE)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.YOUNGFREDO_SMITHING_TEMPLATE.get(), 2)
+                .pattern("#S#")
+                .pattern("#C#")
+                .pattern("###")
+                .define('#', Items.DIAMOND)
+                .define('S', ModItems.YOUNGFREDO_SMITHING_TEMPLATE.get())
+                .define('C', Items.COBBLED_DEEPSLATE)
+                .unlockedBy("has_youngfredo_armor_trim_smithing_template", has(ModItems.YOUNGFREDO_SMITHING_TEMPLATE)).save(recipeOutput);
     }
 }

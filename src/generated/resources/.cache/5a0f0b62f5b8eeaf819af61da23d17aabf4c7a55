@@ -1,3 +1,4 @@
-// 1.21.1	2025-07-20T12:23:59.6633942	Global Loot Modifiers : fredosvanillaitems
+// 1.21.1	2025-08-27T11:44:29.7615508	Global Loot Modifiers : fredosvanillaitems
 6872d6fdcced68b496c1e65bad44a9517e36e48a data/fredosvanillaitems/loot_modifiers/enderite_upgrade_smithing_template_from_end_city_treasure.json
-001c73189cbaf407802cf74be8925d62629e04dd data/neoforge/loot_modifiers/global_loot_modifiers.json
+aefb177e023e447c4c8b10934b076a730c90dbf2 data/fredosvanillaitems/loot_modifiers/youngfredo_armor_trim_smithing_template_from_simple_dungeon.json
+5bb8740cea4e3f28cdaa4300755036d38b9099d4 data/neoforge/loot_modifiers/global_loot_modifiers.json

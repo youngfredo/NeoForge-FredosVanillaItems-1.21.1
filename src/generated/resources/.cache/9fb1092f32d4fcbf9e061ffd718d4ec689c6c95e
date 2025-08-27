@@ -1,4 +1,4 @@
-// 1.21.1	2025-08-20T00:50:12.1381535	Recipes
+// 1.21.1	2025-08-27T11:44:29.7555462	Recipes
 e600863c32412dd01ff688c6d427a7e7ac3ac077 data/fredosvanillaitems/advancement/recipes/combat/copper_boots.json
 275204577e91686c86578c1bac5ab7acc0c99853 data/fredosvanillaitems/advancement/recipes/combat/copper_chestplate.json
 cbb93b18f1701ddcdc4a1be320eed78467aaa858 data/fredosvanillaitems/advancement/recipes/combat/copper_helmet.json
@@ -30,6 +30,7 @@ d298479125cd896b7a6ced7710e9cae34385a566 data/fredosvanillaitems/advancement/rec
 c7e236081935cfbc3487f0dd0d521a8543d7a416 data/fredosvanillaitems/advancement/recipes/misc/ruby_block.json
 c80f0da1606511fd67ac53fb34549b9377abf2ee data/fredosvanillaitems/advancement/recipes/misc/ruby_from_ruby_block.json
 21d43c4ae6ba8a90af56a30db5c6e4eacdb4d6db data/fredosvanillaitems/advancement/recipes/misc/youngfredo.json
+ff6d6a88bc67aa208e1c1cd527b882db5903da44 data/fredosvanillaitems/advancement/recipes/misc/youngfredo_armor_trim_smithing_template.json
 122bfade45d41c938db6e773f261efb7f4124991 data/fredosvanillaitems/advancement/recipes/tools/copper_axe.json
 018bbeae38e8081cbd01ea2b3b2e5af51af01c6e data/fredosvanillaitems/advancement/recipes/tools/copper_hoe.json
 82885279347e2bc14a574ec83e65d3694d3bb586 data/fredosvanillaitems/advancement/recipes/tools/copper_pickaxe.json
@@ -85,6 +86,7 @@ ff387bf48f75ac19489ffc752ad01dbf6c8b854f data/fredosvanillaitems/recipe/ruby_pic
 68d401920bd96f5efb140361e7e9a6dfabe95ca8 data/fredosvanillaitems/recipe/ruby_shovel.json
 7e1161473f48ad042c4a7d8d3f80a33aa6abc3b7 data/fredosvanillaitems/recipe/ruby_sword.json
 81b253dd9e047210a898041ce9d24e149d04dc6e data/fredosvanillaitems/recipe/youngfredo.json
+122ab177e3187a1d8339ff1727b13de914785efe data/fredosvanillaitems/recipe/youngfredo_armor_trim_smithing_template.json
 a8d62fb9e91f89de1bf9a43919259527fcc31a3e data/minecraft/advancement/recipes/combat/diamond_horse_armor.json
 482cdf34b14311d82e30aabb36257c3988c37f07 data/minecraft/advancement/recipes/combat/golden_horse_armor.json
 a5675b344cd38f7306d5b0c1fc04ac7923602364 data/minecraft/advancement/recipes/combat/iron_horse_armor.json

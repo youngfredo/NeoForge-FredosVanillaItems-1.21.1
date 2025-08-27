@@ -25,5 +25,10 @@ public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
                 new AddItemModifier(new LootItemCondition[] {
                         new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("chests/end_city_treasure")).build(),
                         LootItemRandomChanceCondition.randomChance(0.50f).build() }, ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE.get()));
+
+        this.add("youngfredo_armor_trim_smithing_template_from_simple_dungeon",
+                new AddItemModifier(new LootItemCondition[] {
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("chests/simple_dungeon")).build(),
+                        LootItemRandomChanceCondition.randomChance(0.50f).build() }, ModItems.YOUNGFREDO_SMITHING_TEMPLATE.get()));
     }
 }
